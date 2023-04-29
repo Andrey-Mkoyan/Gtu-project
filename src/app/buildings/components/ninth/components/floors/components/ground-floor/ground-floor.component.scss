@@ -1,0 +1,30 @@
+.floor__0 {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    .left {
+        max-width: 1200px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+        min-width: 725px;
+    }
+
+    .right {
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .right__title {
+            font-size: 20px;
+            margin-bottom: 50px;
+        }
+
+        .right__text {
+            font-size: 18px;
+        }
+    }
+}

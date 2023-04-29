@@ -5,6 +5,8 @@ import { HistoryPageComponent } from './components/history-page/history-page.com
 import { SharedModule } from 'src/app/shared/shared.module';
 import { NinthComponent } from './ninth.component';
 import { FloorsComponent } from './components/floors/floors.component';
+import { GroundFloorComponent } from './components/floors/components/ground-floor/ground-floor.component';
+import { FirstFloorComponent } from './components/floors/components/first-floor/first-floor.component';
 
 
 
@@ -12,7 +14,9 @@ import { FloorsComponent } from './components/floors/floors.component';
   declarations: [
     HistoryPageComponent,
     NinthComponent,
-    FloorsComponent
+    FloorsComponent,
+    GroundFloorComponent,
+    FirstFloorComponent
   ],
   imports: [
     CommonModule,
