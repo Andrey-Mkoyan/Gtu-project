@@ -1,0 +1,48 @@
+.buildings__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url('../../assets/backgrounds/main.jpg')center center/cover no-repeat;
+
+
+    .logo {
+        position: absolute;
+        top: 3%;
+        left: 3%;
+        z-index: 1;
+    }
+    .main__content {
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1%;
+        .main__title {
+            color: white;
+            font-size: 25px;
+            font-style: italic;
+            text-align: center;
+            
+        }
+        .main__subtitle {
+            margin-top: 50px;
+            color: white;
+        }
+        .cards__container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            width: 75%;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+        
+    }
+}
+
+
+  
