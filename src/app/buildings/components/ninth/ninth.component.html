@@ -17,7 +17,11 @@
                 <span>და</span> <br>
                 <span>საექსპერტო</span> <span>ლაბორატორიის</span> <span>კორპუსი</span>
             </h1>
+            <div class="title">
+                აირჩიეთ სართული მეტი ინფორმაციისათვის
+            </div>
             <div class="floors__container">
+                
                 <div class="floor" *ngFor="let floor of floors" [routerLink]="floor.path">
                     {{floor.title}}
                 </div>
