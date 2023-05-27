@@ -57,16 +57,7 @@ export class BuildingsComponent {
         image: '../../assets/backgrounds/9-კორპუსი.jpeg',
         faculties: '1,2,3,4,5' 
       },
-      // {
-      //   title: 'Tenth building',
-      //   path: '',
-      //   image: '' 
-      // },
-      // {
-      //   title: 'Eleventh building',
-      //   path: '',
-      //   image: '' 
-      // },
+     
     ]
   }
 }
