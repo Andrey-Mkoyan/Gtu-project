@@ -1,8 +1,10 @@
 .floor__0 {
-    margin-top: 50px;
+    height: 100vh;
+    position: relative;
     display: flex;
     align-items: center;
-    padding-bottom: 50px;
+    justify-content: center;
+    box-sizing: border-box;
     .left {
         max-width: 1200px;
         display: flex;

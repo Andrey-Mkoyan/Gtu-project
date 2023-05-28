@@ -65,16 +65,7 @@ export class BuildingsComponent {
         faculties: '1,2,3,4,5' ,
         id:9
       },
-      // {
-      //   title: 'Tenth building',
-      //   path: '',
-      //   image: '' 
-      // },
-      // {
-      //   title: 'Eleventh building',
-      //   path: '',
-      //   image: '' 
-      // },
+     
     ]
   }
 }
