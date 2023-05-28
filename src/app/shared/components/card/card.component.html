@@ -1,6 +1,6 @@
 <div class="cards__container">
     <div class="card"  *ngFor="let card of cards" >
-        <div class="card-side front">
+        <div class="card-side front" (mouseover)="changeBackground(card.id)">
             <div class="card__image">
                 <img [src]="card.image" width="200" height="120" alt="">
             </div>

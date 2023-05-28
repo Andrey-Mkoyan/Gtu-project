@@ -11,4 +11,8 @@ export class CardComponent {
   getFaculties() {
     
   }
+  changeBackground(id:number) {
+    console.log(id);
+    
+  }
 }
