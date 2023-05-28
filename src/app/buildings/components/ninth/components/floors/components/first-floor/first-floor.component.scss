@@ -26,6 +26,12 @@
             max-width: 760px;
             min-width: 750px;
             margin-right: 5%;
+            img {
+                transition: 0.3s;
+            }
+            img:hover {
+                transform: scale(1.5);
+            }
         }
         
     }
