@@ -50,7 +50,14 @@ export class BuildingsComponent {
       {
         title: 'მეექვსე კორპუსი',
         path: '/sixth-building',
-        image: '../../assets/backgrounds/6-კორპუსი.jpg' ,
+        image: '../../assets/backgrounds/მეექვსე.jpg' ,
+        faculties: '1,2,3,4,5',
+        id:6
+      },
+      {
+        title: 'მეშვიდე კორპუსი',
+        path: '/seveth-building',
+        image: '../../assets/backgrounds/7-building.jpeg' ,
         faculties: '1,2,3,4,5',
         id:6
       },
@@ -58,16 +65,37 @@ export class BuildingsComponent {
       {
         title: 'მერვე კორპუსი',
         path: '/eighth-building',
-        image: '../../assets/backgrounds/8-კორპუსი.jpg',
+        image: '../../assets/backgrounds/მერვე.jpg',
         faculties: '1,2,3,4,5',
         id:7
       },
       {
-        title: 'მეცხრე',
+        title: 'მეცხრე კორპუსი',
         path: '/ninth-building',
         image: '../../assets/backgrounds/9-კორპუსი.jpeg',
         faculties: '1,2,3,4,5' ,
         id:8
+      },
+      {
+        title: 'მეათე კორპუსი',
+        path: '/tenth-building',
+        image: '../../assets/backgrounds/მეათე–კორპუსი.jpg',
+        faculties: '1,2,3,4,5' ,
+        id:9
+      },
+      {
+        title: 'მეთერთმეტე კორპუსი',
+        path: '/eleventh-building',
+        image: '../../assets/backgrounds/მეთერთმეტე–კორპუსი.jpg',
+        faculties: '1,2,3,4,5' ,
+        id:10
+      },
+      {
+        title: 'გადამზადების კორპუსი',
+        path: '/retrainings-building',
+        image: '../../assets/backgrounds/გადამზადების–კორპუსი.jpg',
+        faculties: '1,2,3,4,5' ,
+        id:11
       },
      
     ]

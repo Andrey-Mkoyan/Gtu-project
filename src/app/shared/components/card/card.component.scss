@@ -12,7 +12,7 @@
   width: 320px;
   box-shadow: none;
   background: none;
-  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.4);
+  // box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.4);
   .front {
      display: flex;
      flex-direction: column;
@@ -47,7 +47,7 @@
 
 .card-side.back {
   transform: rotateY(-180deg);
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.3);
   color: black;
   display: flex;
   flex-direction: column;
