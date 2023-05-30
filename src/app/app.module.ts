@@ -7,6 +7,7 @@ import { BuildingsComponent } from './buildings/buildings.component';
 import { FirstComponent } from './buildings/components/first/first.component';
 import { SecondComponent } from './buildings/components/second/second.component';
 import { ThirdComponent } from './buildings/components/third/third.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { ThirdComponent } from './buildings/components/third/third.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
   ],
   providers: [],

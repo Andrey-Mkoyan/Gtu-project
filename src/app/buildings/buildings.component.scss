@@ -5,8 +5,7 @@
     min-height: 100vh;
     padding-bottom: 20px;
     position: relative;
-    background: url('../../assets/backgrounds/main.jpg')center center/cover no-repeat;
-
+    transition: 0.5s;
 
     .logo {
         position: absolute;
@@ -41,4 +40,9 @@
 }
 
 
-  
+// .background {
+//     background: url('../../assets/backgrounds/main.jpg')center center/cover no-repeat;
+// }
+// .background-1 {
+//     background: url('../../assets/backgrounds/main.jpg')center center/cover no-repeat;
+// }

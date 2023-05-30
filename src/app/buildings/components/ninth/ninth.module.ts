@@ -25,7 +25,7 @@ import { FourthFloorComponent } from './components/floors/components/fourth-floo
   imports: [
     CommonModule,
     NinthRoutingModule,
-    SharedModule
+    SharedModule,
   ],
   exports: [
   ]

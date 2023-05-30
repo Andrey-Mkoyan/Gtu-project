@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-card',
@@ -7,12 +7,12 @@ import { Component, Input } from '@angular/core';
 })
 export class CardComponent {
   @Input() cards:any = [];
-
+  @Output() id = new EventEmitter<number>()
   getFaculties() {
     
   }
   changeBackground(id:number) {
-    console.log(id);
+    this.id.emit(id)
     
   }
 }

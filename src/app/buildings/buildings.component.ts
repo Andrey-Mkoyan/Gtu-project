@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class BuildingsComponent {
   cards:any = []
+  cardId:number = 10
+  background: string = '../../assets/backgrounds/main.jpg';
   constructor() {
     this.cards = [
       {
@@ -28,7 +30,7 @@ export class BuildingsComponent {
         path: 'third-building',
         image: '../../assets/backgrounds/main.jpg',
         faculties: '1,2,3,4,5',
-        id:10
+        id:3
       },
 
       {
@@ -36,14 +38,14 @@ export class BuildingsComponent {
         path: '/fourth-building',
         image: '../../assets/backgrounds/3BuildingBackImage.jpg',
         faculties: '1,2,3,4,5',
-        id:3
+        id:4
       },
       {
         title: 'მეოთხე კორპუსი',
         path: '/seventh-building',
         image: '../../assets/backgrounds/4კორპუსი.jpeg' ,
         faculties: '1,2,3,4,5',
-        id:4
+        id:5
       },
       {
         title: 'მეექვსე კორპუსი',
@@ -58,16 +60,22 @@ export class BuildingsComponent {
         path: '/eighth-building',
         image: '../../assets/backgrounds/8-კორპუსი.jpg',
         faculties: '1,2,3,4,5',
-        id:8 
+        id:7
       },
       {
         title: 'მეცხრე',
         path: '/ninth-building',
         image: '../../assets/backgrounds/9-კორპუსი.jpeg',
         faculties: '1,2,3,4,5' ,
-        id:9
+        id:8
       },
      
     ]
+    
+  }
+  changeBackground(id:number) {
+    this.cardId = id
+    this.background = this.cards[id-1].image
+    
   }
 }

@@ -1,4 +1,4 @@
-<div class="buildings__wrapper" [ngStyle]="">
+<div class="buildings__wrapper" [ngStyle]="{'background': 'url(' + background + ')center center/cover no-repeat'}">
     <div class="inner__wrapper">
 
     </div>
@@ -17,7 +17,7 @@
         </div>
     
         <div class="cards__container">
-            <app-card [cards]="cards"></app-card>
+            <app-card (id)="changeBackground($event)" [cards]="cards"></app-card>
         </div>
     </div>
 </div>
