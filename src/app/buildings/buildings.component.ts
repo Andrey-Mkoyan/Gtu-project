@@ -65,14 +65,14 @@ export class BuildingsComponent {
         title: 'მერვე კორპუსი',
         path: '/eighth-building',
         image: '../../assets/backgrounds/მერვე.jpg',
-        faculties: '1,2,3,4,5',
+        faculties: 'საქართველოს ტექნიკური უნივერსიტეტის მერვე კორპუსი',
         id:8
       },
       {
         title: 'მეცხრე კორპუსი',
         path: '/ninth-building',
         image: '../../assets/backgrounds/9-კორპუსი.jpeg',
-        faculties: '1,2,3,4,5' ,
+        faculties: 'საქართველოს ტექნიკური უნივერსიტეტის მეცხრე კორპუსი' ,
         id:9
       },
       {
