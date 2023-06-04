@@ -29,6 +29,11 @@ const routes: Routes = [
         import('./components/third/third.module').then((m) => m.ThirdModule)
     },
     {
+        path: 'administrative-building',
+        loadChildren: () => 
+        import('./components/administrative/administrative.module').then((m) => m.AdministrativeModule)
+    },
+    {
         path: 'fourth-building',
         loadChildren: () => 
         import('./components/fourth/fourth.module').then((m) => m.FourthModule)

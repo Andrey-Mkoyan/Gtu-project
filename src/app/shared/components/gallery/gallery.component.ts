@@ -11,18 +11,21 @@ import {NgxGalleryAnimation} from '@kolkov/ngx-gallery';
 export class GalleryComponent {
   galleryOptions!: NgxGalleryOptions[];
   galleryImages!: NgxGalleryImage[];
+  @Input()width: string = '600'
+  @Input()height: string = '400'
   @Input()imagesFromOutside!:NgxGalleryImage[];
   constructor() { }
 
   ngOnInit() {
     this.galleryOptions = [
       {
-        width: '600px',
-        height: '400px',
+        width: `${this.width}px`,
+        height: `${this.height}px`,
         thumbnailsColumns: this.imagesFromOutside.length,
         imageAnimation: NgxGalleryAnimation.Slide,
         previewCloseOnClick:true,
         previewCloseOnEsc:true,
+        thumbnailsSwipe: true,
       },
       // max-width 800
       {
@@ -33,14 +36,18 @@ export class GalleryComponent {
         thumbnailsPercent: 20,
         thumbnailsMargin: 20,
         thumbnailMargin: 20
+        
+        
       },
       // max-width 400
       {
         breakpoint: 400,
         preview: false
-      }
+      },
+      
     ];
 
     this.galleryImages = this.imagesFromOutside
   }
+  
 }

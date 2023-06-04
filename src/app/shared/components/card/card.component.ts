@@ -7,10 +7,10 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 })
 export class CardComponent {
   @Input() cards:any = [];
+  @Input() width:number = 320;
+  @Input() height:number = 220;
   @Output() id = new EventEmitter<number>()
-  getFaculties() {
-    
-  }
+ 
   changeBackground(id:number) {
     this.id.emit(id)
     

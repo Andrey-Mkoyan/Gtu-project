@@ -4,6 +4,7 @@ import { BuildingsComponent } from './buildings.component';
 import { BuildingsRoutingModule } from './buildings-routing.module';
 import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
+import { AdministrativeComponent } from './components/administrative/administrative.component';
 
 
 @NgModule({

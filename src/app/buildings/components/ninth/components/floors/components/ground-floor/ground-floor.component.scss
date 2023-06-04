@@ -5,6 +5,8 @@
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
+    background: url('../../../../../../../../assets/backgrounds/9-კორპუსი.jpeg')center center/cover no-repeat;
+    background-attachment: fixed;
     .left {
         max-width: 1200px;
         display: flex;
@@ -23,10 +25,17 @@
         .right__title {
             font-size: 20px;
             margin-bottom: 50px;
+            color: white;
         }
 
         .right__text {
             font-size: 18px;
+            color: white;
         }
     }
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

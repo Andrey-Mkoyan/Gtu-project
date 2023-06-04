@@ -2,15 +2,15 @@
     <div class="card"  *ngFor="let card of cards" >
         <div class="card-side front" (mouseover)="changeBackground(card.id)">
             <div class="card__image">
-                <img [src]="card.image" width="320" height="220" alt="">
+                <img [src]="card.image" [width]="width" [height]="height" alt="">
             </div>
             <div class="card__title">
               {{card.title}}
             </div>
         </div>
         <div class="card-side back">
-            <div class="faculties" *ngFor="let item of card.faculties.split(',')">
-                {{item}}
+            <div class="faculties">
+                {{card.faculties}}
             </div>
             <div class="more__info">
                 <button [routerLink]="card.path">მეტი ინფორმაცია</button>

@@ -23,6 +23,7 @@
         font-size: 18px;
         border-radius: 10px;
         background: rgba(0, 0, 0,0.3);
+        text-align: center;
       }
       .card__image {
           img {
@@ -82,4 +83,10 @@
   button:hover {
     transform: scale(1.1);
   }
+}
+
+.faculties {
+  text-align: center;
+  padding: 15px;
+  color: white;
 }

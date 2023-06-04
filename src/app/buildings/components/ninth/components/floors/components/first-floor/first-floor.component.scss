@@ -7,14 +7,11 @@
     width: 100%;
     min-height: 100vh;
     box-sizing: border-box;
-    background-color: rgb(187, 187, 187);
     padding:50px 0;
     overflow-x: hidden;
     transition: 0.5s;
-    .main__title {
-        font-size: 28px;
-        margin-bottom: 50px;
-    }
+    background: url('../../../../../../../../assets/backgrounds/9-კორპუსი.jpeg')center center/cover no-repeat;
+    background-attachment: fixed;
     .laboratory__of-robot {
         display: flex;
         align-items: center;
@@ -42,14 +39,17 @@
             font-size: 24px;
             font-weight: 600;
             margin-bottom: 25px;
+            color: white;
         }
         .info__text {
             font-size: 18px;
+            color: white;
             .etc {
                 font-size: 20px;
                 font-weight: 500;
                 margin-bottom: 5px;
                 margin-top: 15px;
+                color: white;
             }
         }
     }
