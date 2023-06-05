@@ -8,15 +8,17 @@ import { HallComponent } from './components/hall/hall.component';
 import { ConferenceHallComponent } from './components/conference-hall/conference-hall.component';
 
 
-
 @NgModule({
   declarations: [
     AdministrativeComponent,
+    LibraryComponent,
+    HallComponent,
+    ConferenceHallComponent
   ],
   imports: [
     CommonModule,
     AdministrativeRoutingModule,
-    SharedModule
+    SharedModule,
   ],
   
 })

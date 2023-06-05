@@ -25,7 +25,7 @@ export class AdministrativeComponent {
       {
         title: 'ნიკო ნიკოლაძის საკონფერენციო დარბაზი',
         path: '/administrative-building/conference-hall',
-        image: '../../assets/backgrounds/3BuildingBackImage.jpg',
+        image: '../../../../assets/images/administrative/cards/საკონფერენციო.jpg',
         faculties: 'თბილისის ტექნიკურ უნივერსიტეტს ნიკო ნიკოლაძის სახელობის საკონფერენციო დარბაზი შეემატა. ახალი სივრცე უმაღლეს სასწავლებელში პრეზიდენტმა გახსნა.',
       },
     ]

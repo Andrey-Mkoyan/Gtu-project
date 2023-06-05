@@ -1,0 +1,16 @@
+.conference__hall {
+    background: url('../../../../../../assets/backgrounds/main.jpg')center center/cover no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.conference__hall::ng-deep {
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 90%;
+    }
+}

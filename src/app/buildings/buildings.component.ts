@@ -15,28 +15,28 @@ export class BuildingsComponent {
         title: 'პირველი კორპუსი',
         path: '/first-building',
         image: '../../assets/backgrounds/first-building.jpg',
-        faculties: '1,2,3,4,5' ,
+        faculties: 'საქართველოს ტექნიკური უნივერსიტეტის პირველი კორპუსი' ,
         id: 1,
       },
       {
         title: 'მეორე კორპუსი',
         path: 'second-building',
         image: '../../assets/backgrounds/2BuildingBackImage.jpg',
-        faculties: '1,2,3,4,5',
+        faculties: 'საქართველოს ტექნიკური უნივერსიტეტის მეორე კორპუსი',
         id:2
       },
       {
         title: 'მესამე კორპუსი',
         path: '/fourth-building',
         image: '../../assets/backgrounds/3BuildingBackImage.jpg',
-        faculties: '1,2,3,4,5',
+        faculties: 'საქართველოს ტექნიკური უნივერსიტეტის მესამე კორპუსი',
         id:3
       },
       {
         title: 'მეოთხე კორპუსი',
         path: '/seventh-building',
         image: '../../assets/backgrounds/4კორპუსი.jpeg' ,
-        faculties: '1,2,3,4,5',
+        faculties: 'საქართველოს ტექნიკური უნივერსიტეტის მეითხე კორპუსი',
         id:4
       },
       {
@@ -50,14 +50,14 @@ export class BuildingsComponent {
         title: 'მეექვსე კორპუსი',
         path: '/sixth-building',
         image: '../../assets/backgrounds/მეექვსე.jpg' ,
-        faculties: '1,2,3,4,5',
+        faculties: 'საქართველოს ტექნიკური უნივერსიტეტის მეექვსე კორპუსი',
         id:6
       },
       {
         title: 'მეშვიდე კორპუსი',
         path: '/seveth-building',
         image: '../../assets/backgrounds/7-building.jpeg' ,
-        faculties: '1,2,3,4,5',
+        faculties: 'საქართველოს ტექნიკური უნივერსიტეტის მეშვიდე კორპუსი',
         id:7
       },
      
@@ -79,21 +79,21 @@ export class BuildingsComponent {
         title: 'მეათე კორპუსი',
         path: '/tenth-building',
         image: '../../assets/backgrounds/მეათე–კორპუსი.jpg',
-        faculties: '1,2,3,4,5' ,
+        faculties: 'საქართველოს ტექნიკური უნივერსიტეტის მეათე კორპუსი' ,
         id:10
       },
       {
         title: 'მეთერთმეტე კორპუსი',
         path: '/eleventh-building',
         image: '../../assets/backgrounds/მეთერთმეტე–კორპუსი.jpg',
-        faculties: '1,2,3,4,5' ,
+        faculties: 'საქართველოს ტექნიკური უნივერსიტეტის მეთერთმეტე კორპუსი' ,
         id:11
       },
       {
         title: 'გადამზადების კორპუსი',
         path: '/retrainings-building',
         image: '../../assets/backgrounds/გადამზადების–კორპუსი.jpg',
-        faculties: '1,2,3,4,5' ,
+        faculties: 'საქართველოს ტექნიკური უნივერსიტეტის გადამზადების კორპუსი' ,
         id:12
       },
      

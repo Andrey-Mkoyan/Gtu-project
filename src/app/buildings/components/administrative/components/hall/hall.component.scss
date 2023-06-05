@@ -1,0 +1,17 @@
+.hall__wrapper {
+    background: url('../../../../../../assets/backgrounds/main.jpg')center center/cover no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hall__wrapper::ng-deep {
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 90%;
+    }
+}
