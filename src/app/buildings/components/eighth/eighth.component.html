@@ -1,5 +1,17 @@
 <div class="eighth__building-wrapper">
+    <div class="logo" routerLink="/">
+        <img src="../../../../assets/icons/Logo.svg" alt="logo">
+    </div>
     <div class="inner__wrapper">
         
+    </div>
+    <div class="content">
+        <app-gallery [imagesFromOutside]="images" [height]="'800'" [width]="'1300'"></app-gallery>
+        <app-fusion-solar></app-fusion-solar>
+        <app-electrical-circuits></app-electrical-circuits>
+        <app-thermotechnical></app-thermotechnical>
+        <app-consumption-technologies></app-consumption-technologies>
+        <app-heating-laboratory></app-heating-laboratory>
+        <app-library></app-library>
     </div>
 </div>

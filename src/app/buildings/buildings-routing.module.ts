@@ -44,7 +44,7 @@ const routes: Routes = [
         import('./components/sixth/sixth.module').then((m) => m.SixthModule)
     },
     {
-        path: 'seventh-building',
+        path: 'seveth-building',
         loadChildren: () => 
         import('./components/seventh/seventh.module').then((m) => m.SeventhModule)
     },
@@ -57,7 +57,18 @@ const routes: Routes = [
         path: 'ninth-building',
         loadChildren: () =>
             import('./components/ninth/ninth.module').then((m) => m.NinthModule)
-    }
+    },
+    {
+        path: 'tenth-building',
+        loadChildren: () =>
+            import('./components/tenth/tenth.module').then((m) => m.TenthModule)
+    },
+    {
+        path: 'retrainings-building',
+        loadChildren: () =>
+            import('./components/retraining/retraining.module').then((m) => m.RetrainingModule)
+    },
+
 ];
 
 @NgModule({

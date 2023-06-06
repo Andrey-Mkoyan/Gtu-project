@@ -3,9 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { BuildingsComponent } from './buildings/buildings.component';
 import { FirstComponent } from './buildings/components/first/first.component';
-import { SecondComponent } from './buildings/components/second/second.component';
 import { ThirdComponent } from './buildings/components/third/third.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -13,7 +11,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   declarations: [
     AppComponent,
     FirstComponent,
-    SecondComponent,
     ThirdComponent,
     
   ],
