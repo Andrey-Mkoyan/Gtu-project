@@ -1,5 +1,24 @@
 <div class="sixth__building-wrapper">
+    <div class="logo" routerLink="/">
+        <img src="../../../../assets/icons/Logo.svg" alt="logo">
+    </div>
     <div class="inner__wrapper">
         
     </div>
+    <div class="content">
+        <app-gallery [imagesFromOutside]="images" [height]="'800'" [width]="'1300'"></app-gallery>
+        <app-information-technology></app-information-technology>
+        <app-business-technologies></app-business-technologies>
+        <app-economy></app-economy>
+        <app-low-and-international-relations></app-low-and-international-relations>
+    </div>
 </div>
+
+<!-- <div class="info__content">
+    <div class="info__title">
+       
+    </div>
+    <div class="info__text">
+     
+    </div>
+</div> -->

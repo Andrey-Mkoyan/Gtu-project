@@ -1,0 +1,28 @@
+.mechanical__engineering_laboratory {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    .info {
+        width: 100%;
+        .title {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 25px;
+            max-width: 760px;
+            color: white;
+            text-align: center
+        }
+        .text {
+            font-size: 18px;
+            color: white;
+            max-width: 760px;
+        }
+    }
+}
+.main__title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: white;
+    text-align: center
+}
