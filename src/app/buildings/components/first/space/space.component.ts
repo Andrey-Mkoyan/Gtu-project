@@ -10,19 +10,19 @@ export class SpaceComponent {
   constructor() {
     this.images = [
       {
-        small: '../../../../../assets/images/1-building/space/1.JPG',
-        medium: '../../../../../assets/images/1-building/space/1.JPG',
-        big: '../../../../../assets/images/1-building/space/1.JPG'
+        small: '../../../../../assets/images/1-building/space/1.jpg',
+        medium: '../../../../../assets/images/1-building/space/1.jpg',
+        big: '../../../../../assets/images/1-building/space/1.jpg'
       },
       {
-        small: '../../../../../assets/images/1-building/space/2.JPG',
-        medium: '../../../../../assets/images/1-building/space/2.JPG',
-        big: '../../../../../assets/images/1-building/space/2.JPG'
+        small: '../../../../../assets/images/1-building/space/2.jpg',
+        medium: '../../../../../assets/images/1-building/space/2.jpg',
+        big: '../../../../../assets/images/1-building/space/2.jpg'
       },
       {
-        small: '../../../../../assets/images/1-building/space/3.JPG',
-        medium: '../../../../../assets/images/1-building/space/3.JPG',
-        big: '../../../../../assets/images/1-building/space/3.JPG'
+        small: '../../../../../assets/images/1-building/space/3.jpg',
+        medium: '../../../../../assets/images/1-building/space/3.jpg',
+        big: '../../../../../assets/images/1-building/space/3.jpg'
       },
     ]
   }

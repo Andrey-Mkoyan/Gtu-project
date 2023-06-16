@@ -13,19 +13,19 @@ export class AdministrativeComponent {
       {
         title: 'ბიბლიოთეკა',
         path: '/administrative-building/library',
-        image: '../../../../assets/images/administrative/cards/ბიბლიოთეკა.jpg',
+        image: '../../../../assets/images/administrative/cards/library.jpg',
         faculties: 'ბიბლიოთეკა- ბიბლიოთეკის ფონდში დიდი რაოდენობითაა ენციკლოპედიები, ლექსიკონები და სხვადასხვა სასწავლო-სამეცნიერო კვლევითი ორგანიზაციების სამეცნიერო შრომები.' ,
       },
       {
         title: 'გიორგი ნიკოლაძის სახელობის დარბაზი',
         path: '/administrative-building/hall',
-        image: '../../../../assets/images/administrative/cards/გიორგი-ნიკოლაძის-დარბაზი.jpg',
+        image: '../../../../assets/images/administrative/cards/hall.jpg',
         faculties: 'თბილისის ტექნიკურ უნივერსიტეტსგიორგი ნიკოლაძის  სახელობის საკონფერენციო დარბაზი შეემატა. ახალი სივრცე უმაღლეს სასწავლებელში პრეზიდენტმა გახსნა.',
       },
       {
         title: 'ნიკო ნიკოლაძის საკონფერენციო დარბაზი',
         path: '/administrative-building/conference-hall',
-        image: '../../../../assets/images/administrative/cards/საკონფერენციო.jpg',
+        image: '../../../../assets/images/administrative/cards/confernece.jpg',
         faculties: 'თბილისის ტექნიკურ უნივერსიტეტს ნიკო ნიკოლაძის სახელობის საკონფერენციო დარბაზი შეემატა. ახალი სივრცე უმაღლეს სასწავლებელში პრეზიდენტმა გახსნა.',
       },
     ]

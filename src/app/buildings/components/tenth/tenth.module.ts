@@ -14,6 +14,9 @@ import { TenthRoutingModule } from './tenth-routing.module';
     CommonModule,
     SharedModule,
     TenthRoutingModule
+  ],
+  exports: [
+    TenthComponent
   ]
 })
 export class TenthModule { }

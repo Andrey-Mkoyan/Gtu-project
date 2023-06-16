@@ -114,9 +114,9 @@ constructor() {
       big: '../../../../../../../../assets/images/9-building/conference-hall/2.jpg'
     },
     {
-      small: '../../../../../../../../assets/images/9-building/conference-hall/3.jpg',
-      medium: '../../../../../../../../assets/images/9-building/conference-hall/3.jpg',
-      big: '../../../../../../../../assets/images/9-building/conference-hall/3.jpg'
+      small: '../../../../../../../../assets/images/9-building/conference-hall/3.png',
+      medium: '../../../../../../../../assets/images/9-building/conference-hall/3.png',
+      big: '../../../../../../../../assets/images/9-building/conference-hall/3.png'
     },
   ]
 }

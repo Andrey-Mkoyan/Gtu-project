@@ -12,44 +12,44 @@ export class BuildingsComponent {
   constructor() {
     this.cards = [
       {
+        title: 'ადმინისტრაცუილი კორპუსი',
+        path: 'administrative-building',
+        image: '../../assets/backgrounds/main.jpg',
+        faculties: 'საქართველოს ტექნიკური უნივერსიტეტის ადმინისტრაციული კორპუსი.',
+        id:1
+      },
+      {
         title: 'პირველი კორპუსი',
         path: '/first-building',
         image: '../../assets/backgrounds/first-building.jpg',
         faculties: 'საქართველოს ტექნიკური უნივერსიტეტის პირველი კორპუსი' ,
-        id: 1,
+        id: 2,
       },
       {
         title: 'მეორე კორპუსი',
         path: 'second-building',
         image: '../../assets/backgrounds/2BuildingBackImage.jpg',
         faculties: 'საქართველოს ტექნიკური უნივერსიტეტის მეორე კორპუსი',
-        id:2
+        id:3
       },
       {
         title: 'მესამე კორპუსი',
         path: '/third-building',
         image: '../../assets/backgrounds/3BuildingBackImage.jpg',
         faculties: 'საქართველოს ტექნიკური უნივერსიტეტის მესამე კორპუსი',
-        id:3
+        id:4
       },
       {
         title: 'მეოთხე კორპუსი',
         path: '/fourth-building',
-        image: '../../assets/backgrounds/4კორპუსი.jpeg' ,
+        image: '../../assets/backgrounds/4.jpeg' ,
         faculties: 'საქართველოს ტექნიკური უნივერსიტეტის მეითხე კორპუსი',
-        id:4
-      },
-      {
-        title: 'ადმინისტრაცუილი კორპუსი',
-        path: 'administrative-building',
-        image: '../../assets/backgrounds/main.jpg',
-        faculties: 'საქართველოს ტექნიკური უნივერსიტეტის ადმინისტრაციული კორპუსი.',
         id:5
       },
       {
         title: 'მეექვსე კორპუსი',
         path: '/sixth-building',
-        image: '../../assets/backgrounds/მეექვსე.jpg' ,
+        image: '../../assets/backgrounds/six.jpg' ,
         faculties: 'საქართველოს ტექნიკური უნივერსიტეტის მეექვსე კორპუსი',
         id:6
       },
@@ -64,35 +64,35 @@ export class BuildingsComponent {
       {
         title: 'მერვე კორპუსი',
         path: '/eighth-building',
-        image: '../../assets/backgrounds/მერვე.jpg',
+        image: '../../assets/backgrounds/8.jpg',
         faculties: 'საქართველოს ტექნიკური უნივერსიტეტის მერვე კორპუსი',
         id:8
       },
       {
         title: 'მეცხრე კორპუსი',
         path: '/ninth-building',
-        image: '../../assets/backgrounds/9-კორპუსი.jpeg',
+        image: '../../assets/backgrounds/9.jpeg',
         faculties: 'საქართველოს ტექნიკური უნივერსიტეტის მეცხრე კორპუსი' ,
         id:9
       },
       {
         title: 'მეათე კორპუსი',
         path: '/tenth-building',
-        image: '../../assets/backgrounds/მეათე–კორპუსი.jpg',
+        image: '../../assets/backgrounds/10.jpg',
         faculties: 'საქართველოს ტექნიკური უნივერსიტეტის მეათე კორპუსი' ,
         id:10
       },
       {
         title: 'მეთერთმეტე კორპუსი',
         path: '/eleventh-building',
-        image: '../../assets/backgrounds/მეთერთმეტე–კორპუსი.jpg',
+        image: '../../assets/backgrounds/11.jpg',
         faculties: 'საქართველოს ტექნიკური უნივერსიტეტის მეთერთმეტე კორპუსი' ,
         id:11
       },
       {
         title: 'გადამზადების კორპუსი',
         path: '/retrainings-building',
-        image: '../../assets/backgrounds/გადამზადების–კორპუსი.jpg',
+        image: '../../assets/backgrounds/gadamzadeba.jpg',
         faculties: 'საქართველოს ტექნიკური უნივერსიტეტის გადამზადების კორპუსი' ,
         id:12
       },
@@ -103,6 +103,5 @@ export class BuildingsComponent {
   changeBackground(id:number) {
     this.cardId = id
     this.background = this.cards[id-1].image
-    
   }
 }
