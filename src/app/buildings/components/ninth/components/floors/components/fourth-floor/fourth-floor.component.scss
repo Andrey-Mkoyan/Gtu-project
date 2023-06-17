@@ -7,11 +7,12 @@
     width: 100%;
     min-height: 100vh;
     box-sizing: border-box;
-    padding:50px 0;
+    padding: 50px 0;
     overflow-x: hidden;
     transition: 0.5s;
-    background: url('../../../../../../../../assets/backgrounds/9.jpeg')center center/cover no-repeat;
-    background-attachment: fixed; 
+    background: url('../../../../../../../../assets/backgrounds/9.webp')center center/cover no-repeat;
+    background-attachment: fixed;
+
     .images {
         display: flex;
         flex-direction: row;
@@ -22,8 +23,10 @@
         min-width: 750px;
         margin-right: 5%;
     }
+
     .info {
         width: 100%;
+
         .title {
             font-size: 24px;
             font-weight: 600;
@@ -32,22 +35,30 @@
             color: white;
             text-align: center
         }
+
+        .max_width {
+            min-width: 610px;
+        }
+
         .text {
             font-size: 18px;
             color: white;
             max-width: 760px;
         }
     }
-    
+
     .biomedical__engineering_laboratory {
         display: flex;
         align-items: center;
         margin-bottom: 100px;
     }
-    .data__managment_laboratory,.microprocessor_laboratory  {
+
+    .data__managment_laboratory,
+    .microprocessor_laboratory {
         display: flex;
         align-items: center;
         margin-bottom: 100px;
+
         .images {
             display: flex;
             flex-direction: row;
@@ -62,9 +73,132 @@
             padding-right: 30px;
         }
     }
+
     .electronics_laboratory {
         display: flex;
         align-items: center;
         margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    .fourth__floor_wrapper {
+        .info {
+            .max_width {
+                min-width: 400px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .fourth__floor_wrapper {
+
+        .biomedical__engineering_laboratory,
+        .electronics_laboratory {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .data__managment_laboratory,
+        .microprocessor_laboratory {
+            flex-direction: column-reverse;
+            align-items: center;
+
+            .images {
+                justify-content: center;
+
+            }
+        }
+
+        .images {
+            justify-content: center;
+            margin-right: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .fourth__floor_wrapper {
+
+        .biomedical__engineering_laboratory,
+        .electronics_laboratory {
+            .images {
+                max-width: auto;
+                min-width: auto;
+            }
+
+            .info {
+                .title {
+                    max-width: 600px;
+                }
+
+                .text {
+                    max-width: 600px;
+                }
+            }
+        }
+
+        .data__managment_laboratory,
+        .microprocessor_laboratory {
+            .images {
+                max-width: auto;
+                min-width: auto;
+            }
+            .info {
+                .title {
+                    max-width: 600px;
+                }
+
+                .text {
+                    max-width: 600px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .fourth__floor_wrapper {
+
+        .biomedical__engineering_laboratory,
+        .electronics_laboratory {
+            .images {
+                max-width: auto;
+                min-width: auto;
+            }
+
+            .info {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .title {
+                    max-width: 360px;
+                }
+
+                .text {
+                    max-width: 360px;
+                }
+            }
+        }
+
+        .data__managment_laboratory,
+        .microprocessor_laboratory {
+            .images {
+                max-width: auto;
+                min-width: auto;
+            }
+            .info {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .title {
+                    max-width: 360px;
+                }
+
+                .text {
+                    max-width: 360px;
+                }
+            }
+        }
     }
 }

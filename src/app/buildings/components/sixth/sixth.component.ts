@@ -10,29 +10,29 @@ export class SixthComponent {
   constructor() {
     this.images = [
       {
-        small: '../../../../assets/images/6-building/1-floor/1.jpg',
-        medium: '../../../../assets/images/6-building/1-floor/1.jpg',
-        big: '../../../../assets/images/6-building/1-floor/1.jpg'
+        small: '../../../../assets/images/6-building/1-floor/1.webp',
+        medium: '../../../../assets/images/6-building/1-floor/1.webp',
+        big: '../../../../assets/images/6-building/1-floor/1.webp'
       },
       {
-        small: '../../../../assets/images/6-building/1-floor/2.jpg',
-        medium: '../../../../assets/images/6-building/1-floor/2.jpg',
-        big: '../../../../assets/images/6-building/1-floor/2.jpg'
+        small: '../../../../assets/images/6-building/1-floor/2.webp',
+        medium: '../../../../assets/images/6-building/1-floor/2.webp',
+        big: '../../../../assets/images/6-building/1-floor/2.webp'
       },
       {
-        small: '../../../../assets/images/6-building/1-floor/3.jpg',
-        medium: '../../../../assets/images/6-building/1-floor/3.jpg',
-        big: '../../../../assets/images/6-building/1-floor/3.jpg'
+        small: '../../../../assets/images/6-building/1-floor/3.webp',
+        medium: '../../../../assets/images/6-building/1-floor/3.webp',
+        big: '../../../../assets/images/6-building/1-floor/3.webp'
       },
       {
-        small: '../../../../assets/images/6-building/1-floor/4.jpg',
-        medium: '../../../../assets/images/6-building/1-floor/4.jpg',
-        big: '../../../../assets/images/6-building/1-floor/4.jpg'
+        small: '../../../../assets/images/6-building/1-floor/4.webp',
+        medium: '../../../../assets/images/6-building/1-floor/4.webp',
+        big: '../../../../assets/images/6-building/1-floor/4.webp'
       },
       {
-        small: '../../../../assets/images/6-building/1-floor/5.jpg',
-        medium: '../../../../assets/images/6-building/1-floor/5.jpg',
-        big: '../../../../assets/images/6-building/1-floor/5.jpg'
+        small: '../../../../assets/images/6-building/1-floor/5.webp',
+        medium: '../../../../assets/images/6-building/1-floor/5.webp',
+        big: '../../../../assets/images/6-building/1-floor/5.webp'
       },
     ]
   }

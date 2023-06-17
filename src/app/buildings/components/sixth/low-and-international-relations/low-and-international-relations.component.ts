@@ -13,45 +13,45 @@ export class LowAndInternationalRelationsComponent {
   constructor() {
     this.images = [
       {
-        small: '../../../../../assets/images/6-building/9-floor/1.jpg',
-        medium: '../../../../../assets/images/6-building/9-floor/1.jpg',
-        big: '../../../../../assets/images/6-building/9-floor/1.jpg'
+        small: '../../../../../assets/images/6-building/9-floor/1.webp',
+        medium: '../../../../../assets/images/6-building/9-floor/1.webp',
+        big: '../../../../../assets/images/6-building/9-floor/1.webp'
       },
       {
-        small: '../../../../../assets/images/6-building/9-floor/2.jpg',
-        medium: '../../../../../assets/images/6-building/9-floor/2.jpg',
-        big: '../../../../../assets/images/6-building/9-floor/2.jpg'
+        small: '../../../../../assets/images/6-building/9-floor/2.webp',
+        medium: '../../../../../assets/images/6-building/9-floor/2.webp',
+        big: '../../../../../assets/images/6-building/9-floor/2.webp'
       },
     ];
     this.images2 = [
       {
-        small: '../../../../../assets/images/6-building/9-floor/low/1.jpg',
-        medium: '../../../../../assets/images/6-building/9-floor/low/1.jpg',
-        big: '../../../../../assets/images/6-building/9-floor/low/1.jpg'
+        small: '../../../../../assets/images/6-building/9-floor/low/1.webp',
+        medium: '../../../../../assets/images/6-building/9-floor/low/1.webp',
+        big: '../../../../../assets/images/6-building/9-floor/low/1.webp'
       },
       {
-        small: '../../../../../assets/images/6-building/9-floor/low/2.jpg',
-        medium: '../../../../../assets/images/6-building/9-floor/low/2.jpg',
-        big: '../../../../../assets/images/6-building/9-floor/low/2.jpg'
+        small: '../../../../../assets/images/6-building/9-floor/low/2.webp',
+        medium: '../../../../../assets/images/6-building/9-floor/low/2.webp',
+        big: '../../../../../assets/images/6-building/9-floor/low/2.webp'
       },
     ];
     this.images3 = [
       {
-        small: '../../../../../assets/images/6-building/9-floor/forensic-science/1.jpg',
-        medium: '../../../../../assets/images/6-building/9-floor/forensic-science/1.jpg',
-        big: '../../../../../assets/images/6-building/9-floor/forensic-science/1.jpg'
+        small: '../../../../../assets/images/6-building/9-floor/forensic-science/1.webp',
+        medium: '../../../../../assets/images/6-building/9-floor/forensic-science/1.webp',
+        big: '../../../../../assets/images/6-building/9-floor/forensic-science/1.webp'
       },
     ];
     this.images4 = [
       {
-        small: '../../../../../assets/images/6-building/9-floor/library/1.jpg',
-        medium: '../../../../../assets/images/6-building/9-floor/library/1.jpg',
-        big: '../../../../../assets/images/6-building/9-floor/library/1.jpg'
+        small: '../../../../../assets/images/6-building/9-floor/library/1.webp',
+        medium: '../../../../../assets/images/6-building/9-floor/library/1.webp',
+        big: '../../../../../assets/images/6-building/9-floor/library/1.webp'
       },
       {
-        small: '../../../../../assets/images/6-building/9-floor/library/2.jpg',
-        medium: '../../../../../assets/images/6-building/9-floor/library/2.jpg',
-        big: '../../../../../assets/images/6-building/9-floor/library/2.jpg'
+        small: '../../../../../assets/images/6-building/9-floor/library/2.webp',
+        medium: '../../../../../assets/images/6-building/9-floor/library/2.webp',
+        big: '../../../../../assets/images/6-building/9-floor/library/2.webp'
       },
     
     ]

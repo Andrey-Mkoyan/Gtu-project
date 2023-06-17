@@ -10,34 +10,34 @@ export class TenthComponent {
   constructor() {
     this.images = [
       {
-        small: '../../../../assets/images/10-building/1.jpg',
-        medium: '../../../../assets/images/10-building/1.jpg',
-        big: '../../../../assets/images/10-building/1.jpg'
+        small: '../../../../assets/images/10-building/1.webp',
+        medium: '../../../../assets/images/10-building/1.webp',
+        big: '../../../../assets/images/10-building/1.webp'
       },
       {
-        small: '../../../../assets/images/10-building/2.jpg',
-        medium: '../../../../assets/images/10-building/2.jpg',
-        big: '../../../../assets/images/10-building/2.jpg'
+        small: '../../../../assets/images/10-building/2.webp',
+        medium: '../../../../assets/images/10-building/2.webp',
+        big: '../../../../assets/images/10-building/2.webp'
       },
       {
-        small: '../../../../assets/images/10-building/3.jpg',
-        medium: '../../../../assets/images/10-building/3.jpg',
-        big: '../../../../assets/images/10-building/3.jpg'
+        small: '../../../../assets/images/10-building/3.webp',
+        medium: '../../../../assets/images/10-building/3.webp',
+        big: '../../../../assets/images/10-building/3.webp'
       },
       {
-        small: '../../../../assets/images/10-building/4.jpg',
-        medium: '../../../../assets/images/10-building/4.jpg',
-        big: '../../../../assets/images/10-building/4.jpg'
+        small: '../../../../assets/images/10-building/4.webp',
+        medium: '../../../../assets/images/10-building/4.webp',
+        big: '../../../../assets/images/10-building/4.webp'
       },
       {
-        small: '../../../../assets/images/10-building/5.jpg',
-        medium: '../../../../assets/images/10-building/5.jpg',
-        big: '../../../../assets/images/10-building/5.jpg'
+        small: '../../../../assets/images/10-building/5.webp',
+        medium: '../../../../assets/images/10-building/5.webp',
+        big: '../../../../assets/images/10-building/5.webp'
       },
       {
-        small: '../../../../assets/images/10-building/6.jpg',
-        medium: '../../../../assets/images/10-building/6.jpg',
-        big: '../../../../assets/images/10-building/6.jpg'
+        small: '../../../../assets/images/10-building/6.webp',
+        medium: '../../../../assets/images/10-building/6.webp',
+        big: '../../../../assets/images/10-building/6.webp'
       },
     ]
   }

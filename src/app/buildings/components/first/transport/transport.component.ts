@@ -13,75 +13,75 @@ export class TransportComponent {
   constructor() {
     this.images = [
       {
-        small: '../../../../../assets/images/1-building/transport/1.jpg',
-        medium: '../../../../../assets/images/1-building/transport/1.jpg',
-        big: '../../../../../assets/images/1-building/transport/1.jpg'
+        small: '../../../../../assets/images/1-building/transport/1.webp',
+        medium: '../../../../../assets/images/1-building/transport/1.webp',
+        big: '../../../../../assets/images/1-building/transport/1.webp'
       },
       {
-        small: '../../../../../assets/images/1-building/transport/2.jpg',
-        medium: '../../../../../assets/images/1-building/transport/2.jpg',
-        big: '../../../../../assets/images/1-building/transport/2.jpg'
+        small: '../../../../../assets/images/1-building/transport/2.webp',
+        medium: '../../../../../assets/images/1-building/transport/2.webp',
+        big: '../../../../../assets/images/1-building/transport/2.webp'
       },
     ];
     this.images2 = [
       {
-        small: '../../../../../assets/images/1-building/transport/parts/1.jpg',
-        medium: '../../../../../assets/images/1-building/transport/parts/1.jpg',
-        big: '../../../../../assets/images/1-building/transport/parts/1.jpg'
+        small: '../../../../../assets/images/1-building/transport/parts/1.webp',
+        medium: '../../../../../assets/images/1-building/transport/parts/1.webp',
+        big: '../../../../../assets/images/1-building/transport/parts/1.webp'
       },
       {
-        small: '../../../../../assets/images/1-building/transport/parts/2.jpg',
-        medium: '../../../../../assets/images/1-building/transport/parts/2.jpg',
-        big: '../../../../../assets/images/1-building/transport/parts/2.jpg'
+        small: '../../../../../assets/images/1-building/transport/parts/2.webp',
+        medium: '../../../../../assets/images/1-building/transport/parts/2.webp',
+        big: '../../../../../assets/images/1-building/transport/parts/2.webp'
       },
       {
-        small: '../../../../../assets/images/1-building/transport/parts/3.jpg',
-        medium: '../../../../../assets/images/1-building/transport/parts/3.jpg',
-        big: '../../../../../assets/images/1-building/transport/parts/3.jpg'
+        small: '../../../../../assets/images/1-building/transport/parts/3.webp',
+        medium: '../../../../../assets/images/1-building/transport/parts/3.webp',
+        big: '../../../../../assets/images/1-building/transport/parts/3.webp'
       },
       {
-        small: '../../../../../assets/images/1-building/transport/parts/4.jpg',
-        medium: '../../../../../assets/images/1-building/transport/parts/4.jpg',
-        big: '../../../../../assets/images/1-building/transport/parts/4.jpg'
+        small: '../../../../../assets/images/1-building/transport/parts/4.webp',
+        medium: '../../../../../assets/images/1-building/transport/parts/4.webp',
+        big: '../../../../../assets/images/1-building/transport/parts/4.webp'
       },
     ];
     this.images3 = [
       {
-        small: '../../../../../assets/images/1-building/transport/tegeta/1.jpg',
-        medium: '../../../../../assets/images/1-building/transport/tegeta/1.jpg',
-        big: '../../../../../assets/images/1-building/transport/tegeta/1.jpg'
+        small: '../../../../../assets/images/1-building/transport/tegeta/1.webp',
+        medium: '../../../../../assets/images/1-building/transport/tegeta/1.webp',
+        big: '../../../../../assets/images/1-building/transport/tegeta/1.webp'
       },
       {
-        small: '../../../../../assets/images/1-building/transport/tegeta/2.jpg',
-        medium: '../../../../../assets/images/1-building/transport/tegeta/2.jpg',
-        big: '../../../../../assets/images/1-building/transport/tegeta/2.jpg'
+        small: '../../../../../assets/images/1-building/transport/tegeta/2.webp',
+        medium: '../../../../../assets/images/1-building/transport/tegeta/2.webp',
+        big: '../../../../../assets/images/1-building/transport/tegeta/2.webp'
       },
       {
-        small: '../../../../../assets/images/1-building/transport/tegeta/3.jpg',
-        medium: '../../../../../assets/images/1-building/transport/tegeta/3.jpg',
-        big: '../../../../../assets/images/1-building/transport/tegeta/3.jpg'
+        small: '../../../../../assets/images/1-building/transport/tegeta/3.webp',
+        medium: '../../../../../assets/images/1-building/transport/tegeta/3.webp',
+        big: '../../../../../assets/images/1-building/transport/tegeta/3.webp'
       },
       {
-        small: '../../../../../assets/images/1-building/transport/tegeta/4.jpg',
-        medium: '../../../../../assets/images/1-building/transport/tegeta/4.jpg',
-        big: '../../../../../assets/images/1-building/transport/tegeta/4.jpg'
+        small: '../../../../../assets/images/1-building/transport/tegeta/4.webp',
+        medium: '../../../../../assets/images/1-building/transport/tegeta/4.webp',
+        big: '../../../../../assets/images/1-building/transport/tegeta/4.webp'
       },
       {
-        small: '../../../../../assets/images/1-building/transport/tegeta/5.jpg',
-        medium: '../../../../../assets/images/1-building/transport/tegeta/5.jpg',
-        big: '../../../../../assets/images/1-building/transport/tegeta/5.jpg'
+        small: '../../../../../assets/images/1-building/transport/tegeta/5.webp',
+        medium: '../../../../../assets/images/1-building/transport/tegeta/5.webp',
+        big: '../../../../../assets/images/1-building/transport/tegeta/5.webp'
       },
     ];
     this.images4 = [
       {
-        small: '../../../../../assets/images/1-building/transport/electro/1.jpg',
-        medium: '../../../../../assets/images/1-building/transport/electro/1.jpg',
-        big: '../../../../../assets/images/1-building/transport/electro/1.jpg'
+        small: '../../../../../assets/images/1-building/transport/electro/1.webp',
+        medium: '../../../../../assets/images/1-building/transport/electro/1.webp',
+        big: '../../../../../assets/images/1-building/transport/electro/1.webp'
       },
       {
-        small: '../../../../../assets/images/1-building/transport/electro/2.jpg',
-        medium: '../../../../../assets/images/1-building/transport/electro/2.jpg',
-        big: '../../../../../assets/images/1-building/transport/electro/2.jpg'
+        small: '../../../../../assets/images/1-building/transport/electro/2.webp',
+        medium: '../../../../../assets/images/1-building/transport/electro/2.webp',
+        big: '../../../../../assets/images/1-building/transport/electro/2.webp'
       },
     ]
   }

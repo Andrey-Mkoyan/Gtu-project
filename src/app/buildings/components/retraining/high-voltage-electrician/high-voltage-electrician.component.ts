@@ -10,19 +10,19 @@ export class HighVoltageElectricianComponent {
   constructor() {
     this.images = [
       {
-        small: '../../../../../assets/images/retrainings/high/1.jpg',
-        medium: '../../../../../assets/images/retrainings/high/1.jpg',
-        big: '../../../../../assets/images/retrainings/high/1.jpg'
+        small: '../../../../../assets/images/retrainings/high/1.webp',
+        medium: '../../../../../assets/images/retrainings/high/1.webp',
+        big: '../../../../../assets/images/retrainings/high/1.webp'
       },
       {
-        small: '../../../../../assets/images/retrainings/high/2.jpg',
-        medium: '../../../../../assets/images/retrainings/high/2.jpg',
-        big: '../../../../../assets/images/retrainings/high/2.jpg'
+        small: '../../../../../assets/images/retrainings/high/2.webp',
+        medium: '../../../../../assets/images/retrainings/high/2.webp',
+        big: '../../../../../assets/images/retrainings/high/2.webp'
       },
       {
-        small: '../../../../../assets/images/retrainings/high/3.jpg',
-        medium: '../../../../../assets/images/retrainings/high/3.jpg',
-        big: '../../../../../assets/images/retrainings/high/3.jpg'
+        small: '../../../../../assets/images/retrainings/high/3.webp',
+        medium: '../../../../../assets/images/retrainings/high/3.webp',
+        big: '../../../../../assets/images/retrainings/high/3.webp'
       },
      
     ]

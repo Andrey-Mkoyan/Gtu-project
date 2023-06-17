@@ -10,19 +10,19 @@ export class IndustrialAutomationComponent {
   constructor() {
     this.images = [
       {
-        small: '../../../../../assets/images/retrainings/industrial/1.jpg',
-        medium: '../../../../../assets/images/retrainings/industrial/1.jpg',
-        big: '../../../../../assets/images/retrainings/industrial/1.jpg'
+        small: '../../../../../assets/images/retrainings/industrial/1.webp',
+        medium: '../../../../../assets/images/retrainings/industrial/1.webp',
+        big: '../../../../../assets/images/retrainings/industrial/1.webp'
       },
       {
-        small: '../../../../../assets/images/retrainings/industrial/2.jpg',
-        medium: '../../../../../assets/images/retrainings/industrial/2.jpg',
-        big: '../../../../../assets/images/retrainings/industrial/2.jpg'
+        small: '../../../../../assets/images/retrainings/industrial/2.webp',
+        medium: '../../../../../assets/images/retrainings/industrial/2.webp',
+        big: '../../../../../assets/images/retrainings/industrial/2.webp'
       },
       {
-        small: '../../../../../assets/images/retrainings/industrial/3.jpg',
-        medium: '../../../../../assets/images/retrainings/industrial/3.jpg',
-        big: '../../../../../assets/images/retrainings/industrial/3.jpg'
+        small: '../../../../../assets/images/retrainings/industrial/3.webp',
+        medium: '../../../../../assets/images/retrainings/industrial/3.webp',
+        big: '../../../../../assets/images/retrainings/industrial/3.webp'
       },
     ]
   }

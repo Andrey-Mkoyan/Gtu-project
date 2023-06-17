@@ -10,29 +10,29 @@ export class LibraryComponent {
   constructor() {
     this.images = [
       {
-        small: '../../../../../../assets/images/administrative/library/img1.jpg',
-        medium: '../../../../../../assets/images/administrative/library/img1.jpg',
-        big: '../../../../../../assets/images/administrative/library/img1.jpg'
+        small: '../../../../../../assets/images/administrative/library/img1.webp',
+        medium: '../../../../../../assets/images/administrative/library/img1.webp',
+        big: '../../../../../../assets/images/administrative/library/img1.webp'
       },
       {
-        small: '../../../../../../assets/images/administrative/library/img2.jpg',
-        medium: '../../../../../../assets/images/administrative/library/img2.jpg',
-        big: '../../../../../../assets/images/administrative/library/img2.jpg'
+        small: '../../../../../../assets/images/administrative/library/img2.webp',
+        medium: '../../../../../../assets/images/administrative/library/img2.webp',
+        big: '../../../../../../assets/images/administrative/library/img2.webp'
       },
       {
-        small: '../../../../../../assets/images/administrative/library/img3.jpg',
-        medium: '../../../../../../assets/images/administrative/library/img3.jpg',
-        big: '../../../../../../assets/images/administrative/library/img3.jpg'
+        small: '../../../../../../assets/images/administrative/library/img3.webp',
+        medium: '../../../../../../assets/images/administrative/library/img3.webp',
+        big: '../../../../../../assets/images/administrative/library/img3.webp'
       },
       {
-        small: '../../../../../../assets/images/administrative/library/img4.jpg',
-        medium: '../../../../../../assets/images/administrative/library/img4.jpg',
-        big: '../../../../../../assets/images/administrative/library/img4.jpg'
+        small: '../../../../../../assets/images/administrative/library/img4.webp',
+        medium: '../../../../../../assets/images/administrative/library/img4.webp',
+        big: '../../../../../../assets/images/administrative/library/img4.webp'
       },
       {
-        small: '../../../../../../assets/images/administrative/library/img5.jpg',
-        medium: '../../../../../../assets/images/administrative/library/img5.jpg',
-        big: '../../../../../../assets/images/administrative/library/img5.jpg'
+        small: '../../../../../../assets/images/administrative/library/img5.webp',
+        medium: '../../../../../../assets/images/administrative/library/img5.webp',
+        big: '../../../../../../assets/images/administrative/library/img5.webp'
       },
     ]
   }

@@ -10,14 +10,14 @@ export class AuditorriumTwoComponent {
   constructor() {
     this.images = [
       {
-        small: '../../../../../assets/images/2-building/auditorium-two/1.jpg',
-        medium: '../../../../../assets/images/2-building/auditorium-two/1.jpg',
-        big: '../../../../../assets/images/2-building/auditorium-two/1.jpg'
+        small: '../../../../../assets/images/2-building/auditorium-two/1.webp',
+        medium: '../../../../../assets/images/2-building/auditorium-two/1.webp',
+        big: '../../../../../assets/images/2-building/auditorium-two/1.webp'
       },
       {
-        small: '../../../../../assets/images/2-building/auditorium-two/2.jpg',
-        medium: '../../../../../assets/images/2-building/auditorium-two/2.jpg',
-        big: '../../../../../assets/images/2-building/auditorium-two/2.jpg'
+        small: '../../../../../assets/images/2-building/auditorium-two/2.webp',
+        medium: '../../../../../assets/images/2-building/auditorium-two/2.webp',
+        big: '../../../../../assets/images/2-building/auditorium-two/2.webp'
       },
     ]
   }

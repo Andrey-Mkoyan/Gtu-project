@@ -10,19 +10,19 @@ export class PublicTheaterComponent {
   constructor() {
     this.images = [
       {
-        small: '../../../../../assets/images/2-building/public-theater/1.jpg',
-        medium: '../../../../../assets/images/2-building/public-theater/1.jpg',
-        big: '../../../../../assets/images/2-building/public-theater/1.jpg'
+        small: '../../../../../assets/images/2-building/public-theater/1.webp',
+        medium: '../../../../../assets/images/2-building/public-theater/1.webp',
+        big: '../../../../../assets/images/2-building/public-theater/1.webp'
       },
       {
-        small: '../../../../../assets/images/2-building/public-theater/2.jpg',
-        medium: '../../../../../assets/images/2-building/public-theater/2.jpg',
-        big: '../../../../../assets/images/2-building/public-theater/2.jpg'
+        small: '../../../../../assets/images/2-building/public-theater/2.webp',
+        medium: '../../../../../assets/images/2-building/public-theater/2.webp',
+        big: '../../../../../assets/images/2-building/public-theater/2.webp'
       },
       {
-        small: '../../../../../assets/images/2-building/public-theater/3.jpg',
-        medium: '../../../../../assets/images/2-building/public-theater/3.jpg',
-        big: '../../../../../assets/images/2-building/public-theater/3.jpg'
+        small: '../../../../../assets/images/2-building/public-theater/3.webp',
+        medium: '../../../../../assets/images/2-building/public-theater/3.webp',
+        big: '../../../../../assets/images/2-building/public-theater/3.webp'
       },
     ]
   }

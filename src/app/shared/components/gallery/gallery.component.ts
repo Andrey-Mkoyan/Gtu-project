@@ -27,11 +27,30 @@ export class GalleryComponent {
         previewCloseOnEsc:true,
         thumbnailsSwipe: true,
       },
+      {
+        breakpoint: 1400,
+        width: '1100px',
+      },
+      {
+        breakpoint: 1200,
+        width: '900px',
+        height: '600px',
+      },
+      {
+        breakpoint: 1000,
+        width: '750px',
+        height: '600px',
+      },
+      {
+        breakpoint: 900,
+        width: '700px',
+        height: '500px',
+      },
       // max-width 800
       {
-        breakpoint: 800,
-        width: '100%',
-        height: '600px',
+        breakpoint: 700,
+        width: '500px',
+        height: '400px',
         imagePercent: 80,
         thumbnailsPercent: 20,
         thumbnailsMargin: 20,
@@ -39,11 +58,15 @@ export class GalleryComponent {
         
         
       },
-      // max-width 400
       {
-        breakpoint: 400,
+        breakpoint: 500,
+        width: '370px',
+        height:'300px',
         preview: false
       },
+
+      // max-width 400
+    
       
     ];
 

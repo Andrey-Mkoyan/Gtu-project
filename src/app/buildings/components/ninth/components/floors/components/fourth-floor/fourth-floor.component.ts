@@ -13,110 +13,110 @@ images4:any;
 constructor() {
   this.images = [
     {
-      small: '../../../../../../../../assets/images/9-building/cern/1.jpg',
-      medium: '../../../../../../../../assets/images/9-building/cern/1.jpg',
-      big: '../../../../../../../../assets/images/9-building/cern/1.jpg'
+      small: '../../../../../../../../assets/images/9-building/cern/1.webp',
+      medium: '../../../../../../../../assets/images/9-building/cern/1.webp',
+      big: '../../../../../../../../assets/images/9-building/cern/1.webp'
     },
     {
-      small: '../../../../../../../../assets/images/9-building/cern/2.jpg',
-      medium: '../../../../../../../../assets/images/9-building/cern/2.jpg',
-      big: '../../../../../../../../assets/images/9-building/cern/2.jpg'
+      small: '../../../../../../../../assets/images/9-building/cern/2.webp',
+      medium: '../../../../../../../../assets/images/9-building/cern/2.webp',
+      big: '../../../../../../../../assets/images/9-building/cern/2.webp'
     },
     {
-      small: '../../../../../../../../assets/images/9-building/cern/3.jpg',
-      medium: '../../../../../../../../assets/images/9-building/cern/3.jpg',
-      big: '../../../../../../../../assets/images/9-building/cern/3.jpg'
+      small: '../../../../../../../../assets/images/9-building/cern/3.webp',
+      medium: '../../../../../../../../assets/images/9-building/cern/3.webp',
+      big: '../../../../../../../../assets/images/9-building/cern/3.webp'
     },
     {
-      small: '../../../../../../../../assets/images/9-building/cern/4.jpg',
-      medium: '../../../../../../../../assets/images/9-building/cern/4.jpg',
-      big: '../../../../../../../../assets/images/9-building/cern/4.jpg'
+      small: '../../../../../../../../assets/images/9-building/cern/4.webp',
+      medium: '../../../../../../../../assets/images/9-building/cern/4.webp',
+      big: '../../../../../../../../assets/images/9-building/cern/4.webp'
     },
     {
-      small: '../../../../../../../../assets/images/9-building/cern/5.jpg',
-      medium: '../../../../../../../../assets/images/9-building/cern/5.jpg',
-      big: '../../../../../../../../assets/images/9-building/cern/5.jpg'
+      small: '../../../../../../../../assets/images/9-building/cern/5.webp',
+      medium: '../../../../../../../../assets/images/9-building/cern/5.webp',
+      big: '../../../../../../../../assets/images/9-building/cern/5.webp'
     },
     {
-      small: '../../../../../../../../assets/images/9-building/cern/6.jpg',
-      medium: '../../../../../../../../assets/images/9-building/cern/6.jpg',
-      big: '../../../../../../../../assets/images/9-building/cern/6.jpg'
+      small: '../../../../../../../../assets/images/9-building/cern/6.webp',
+      medium: '../../../../../../../../assets/images/9-building/cern/6.webp',
+      big: '../../../../../../../../assets/images/9-building/cern/6.webp'
     },
   ]
   this.images2 = [
     {
-      small: '../../../../../../../../assets/images/9-building/scada/1.jpg',
-      medium: '../../../../../../../../assets/images/9-building/scada/1.jpg',
-      big: '../../../../../../../../assets/images/9-building/scada/1.jpg'
+      small: '../../../../../../../../assets/images/9-building/scada/1.webp',
+      medium: '../../../../../../../../assets/images/9-building/scada/1.webp',
+      big: '../../../../../../../../assets/images/9-building/scada/1.webp'
     },
     {
-      small: '../../../../../../../../assets/images/9-building/scada/2.jpg',
-      medium: '../../../../../../../../assets/images/9-building/scada/2.jpg',
-      big: '../../../../../../../../assets/images/9-building/scada/2.jpg'
+      small: '../../../../../../../../assets/images/9-building/scada/2.webp',
+      medium: '../../../../../../../../assets/images/9-building/scada/2.webp',
+      big: '../../../../../../../../assets/images/9-building/scada/2.webp'
     },
     {
-      small: '../../../../../../../../assets/images/9-building/scada/3.jpg',
-      medium: '../../../../../../../../assets/images/9-building/scada/3.jpg',
-      big: '../../../../../../../../assets/images/9-building/scada/3.jpg'
+      small: '../../../../../../../../assets/images/9-building/scada/3.webp',
+      medium: '../../../../../../../../assets/images/9-building/scada/3.webp',
+      big: '../../../../../../../../assets/images/9-building/scada/3.webp'
     },
     {
-      small: '../../../../../../../../assets/images/9-building/scada/4.jpg',
-      medium: '../../../../../../../../assets/images/9-building/scada/4.jpg',
-      big: '../../../../../../../../assets/images/9-building/scada/4.jpg'
+      small: '../../../../../../../../assets/images/9-building/scada/4.webp',
+      medium: '../../../../../../../../assets/images/9-building/scada/4.webp',
+      big: '../../../../../../../../assets/images/9-building/scada/4.webp'
     },
     {
-      small: '../../../../../../../../assets/images/9-building/scada/5.jpg',
-      medium: '../../../../../../../../assets/images/9-building/scada/5.jpg',
-      big: '../../../../../../../../assets/images/9-building/scada/5.jpg'
+      small: '../../../../../../../../assets/images/9-building/scada/5.webp',
+      medium: '../../../../../../../../assets/images/9-building/scada/5.webp',
+      big: '../../../../../../../../assets/images/9-building/scada/5.webp'
     },
   ]
   this.images3 = [
     {
-      small: '../../../../../../../../assets/images/9-building/networks/1.jpg',
-      medium: '../../../../../../../../assets/images/9-building/networks/1.jpg',
-      big: '../../../../../../../../assets/images/9-building/networks/1.jpg'
+      small: '../../../../../../../../assets/images/9-building/networks/1.webp',
+      medium: '../../../../../../../../assets/images/9-building/networks/1.webp',
+      big: '../../../../../../../../assets/images/9-building/networks/1.webp'
     },
     {
-      small: '../../../../../../../../assets/images/9-building/networks/2.jpg',
-      medium: '../../../../../../../../assets/images/9-building/networks/2.jpg',
-      big: '../../../../../../../../assets/images/9-building/networks/2.jpg'
+      small: '../../../../../../../../assets/images/9-building/networks/2.webp',
+      medium: '../../../../../../../../assets/images/9-building/networks/2.webp',
+      big: '../../../../../../../../assets/images/9-building/networks/2.webp'
     },
     {
-      small: '../../../../../../../../assets/images/9-building/networks/3.jpg',
-      medium: '../../../../../../../../assets/images/9-building/networks/3.jpg',
-      big: '../../../../../../../../assets/images/9-building/networks/3.jpg'
+      small: '../../../../../../../../assets/images/9-building/networks/3.webp',
+      medium: '../../../../../../../../assets/images/9-building/networks/3.webp',
+      big: '../../../../../../../../assets/images/9-building/networks/3.webp'
     },
     {
-      small: '../../../../../../../../assets/images/9-building/networks/4.jpg',
-      medium: '../../../../../../../../assets/images/9-building/networks/4.jpg',
-      big: '../../../../../../../../assets/images/9-building/networks/4.jpg'
+      small: '../../../../../../../../assets/images/9-building/networks/4.webp',
+      medium: '../../../../../../../../assets/images/9-building/networks/4.webp',
+      big: '../../../../../../../../assets/images/9-building/networks/4.webp'
     },
     {
-      small: '../../../../../../../../assets/images/9-building/networks/5.jpg',
-      medium: '../../../../../../../../assets/images/9-building/networks/5.jpg',
-      big: '../../../../../../../../assets/images/9-building/networks/5.jpg'
+      small: '../../../../../../../../assets/images/9-building/networks/5.webp',
+      medium: '../../../../../../../../assets/images/9-building/networks/5.webp',
+      big: '../../../../../../../../assets/images/9-building/networks/5.webp'
     },
     {
-      small: '../../../../../../../../assets/images/9-building/networks/6.jpg',
-      medium: '../../../../../../../../assets/images/9-building/networks/6.jpg',
-      big: '../../../../../../../../assets/images/9-building/networks/6.jpg'
+      small: '../../../../../../../../assets/images/9-building/networks/6.webp',
+      medium: '../../../../../../../../assets/images/9-building/networks/6.webp',
+      big: '../../../../../../../../assets/images/9-building/networks/6.webp'
     },
   ]
   this.images4 = [
     {
-      small: '../../../../../../../../assets/images/9-building/conference-hall/1.jpg',
-      medium: '../../../../../../../../assets/images/9-building/conference-hall/1.jpg',
-      big: '../../../../../../../../assets/images/9-building/conference-hall/1.jpg'
+      small: '../../../../../../../../assets/images/9-building/conference-hall/1.webp',
+      medium: '../../../../../../../../assets/images/9-building/conference-hall/1.webp',
+      big: '../../../../../../../../assets/images/9-building/conference-hall/1.webp'
     },
     {
-      small: '../../../../../../../../assets/images/9-building/conference-hall/2.jpg',
-      medium: '../../../../../../../../assets/images/9-building/conference-hall/2.jpg',
-      big: '../../../../../../../../assets/images/9-building/conference-hall/2.jpg'
+      small: '../../../../../../../../assets/images/9-building/conference-hall/2.webp',
+      medium: '../../../../../../../../assets/images/9-building/conference-hall/2.webp',
+      big: '../../../../../../../../assets/images/9-building/conference-hall/2.webp'
     },
     {
-      small: '../../../../../../../../assets/images/9-building/conference-hall/3.png',
-      medium: '../../../../../../../../assets/images/9-building/conference-hall/3.png',
-      big: '../../../../../../../../assets/images/9-building/conference-hall/3.png'
+      small: '../../../../../../../../assets/images/9-building/conference-hall/3.webp',
+      medium: '../../../../../../../../assets/images/9-building/conference-hall/3.webp',
+      big: '../../../../../../../../assets/images/9-building/conference-hall/3.webp'
     },
   ]
 }

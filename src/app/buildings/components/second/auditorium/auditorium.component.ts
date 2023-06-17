@@ -10,24 +10,24 @@ export class AuditoriumComponent {
   constructor() {
     this.images = [
       {
-        small: '../../../../../assets/images/2-building/auditorium/1.jpg',
-        medium: '../../../../../assets/images/2-building/auditorium/1.jpg',
-        big: '../../../../../assets/images/2-building/auditorium/1.jpg'
+        small: '../../../../../assets/images/2-building/auditorium/1.webp',
+        medium: '../../../../../assets/images/2-building/auditorium/1.webp',
+        big: '../../../../../assets/images/2-building/auditorium/1.webp'
       },
       {
-        small: '../../../../../assets/images/2-building/auditorium/2.jpg',
-        medium: '../../../../../assets/images/2-building/auditorium/2.jpg',
-        big: '../../../../../assets/images/2-building/auditorium/2.jpg'
+        small: '../../../../../assets/images/2-building/auditorium/2.webp',
+        medium: '../../../../../assets/images/2-building/auditorium/2.webp',
+        big: '../../../../../assets/images/2-building/auditorium/2.webp'
       },
       {
-        small: '../../../../../assets/images/2-building/auditorium/3.jpg',
-        medium: '../../../../../assets/images/2-building/auditorium/3.jpg',
-        big: '../../../../../assets/images/2-building/auditorium/3.jpg'
+        small: '../../../../../assets/images/2-building/auditorium/3.webp',
+        medium: '../../../../../assets/images/2-building/auditorium/3.webp',
+        big: '../../../../../assets/images/2-building/auditorium/3.webp'
       },
       {
-        small: '../../../../../assets/images/2-building/auditorium/4.jpg',
-        medium: '../../../../../assets/images/2-building/auditorium/4.jpg',
-        big: '../../../../../assets/images/2-building/auditorium/4.jpg'
+        small: '../../../../../assets/images/2-building/auditorium/4.webp',
+        medium: '../../../../../assets/images/2-building/auditorium/4.webp',
+        big: '../../../../../assets/images/2-building/auditorium/4.webp'
       },
     ]
   }

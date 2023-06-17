@@ -1,4 +1,4 @@
-.mechatronics__laboratory {
+.high__voltage_laboratory {
     display: flex;
     align-items: center;
     gap: 100px;
@@ -16,6 +16,125 @@
             font-size: 18px;
             color: white;
             max-width: 760px;
+        }
+    }
+}
+@media only screen and (max-width: 1575px) {
+    .high__voltage_laboratory,.mechanical__engineering_laboratory {
+        .info {
+            .title {
+                max-width: 500px;
+            }
+            .text {
+                font-size: 17px;
+                color: white;
+                max-width: 500px;
+                
+            }
+        }
+    }
+    
+    
+}
+@media only screen and (max-width: 1250px) {
+    .mechanical__engineering_laboratory {
+        flex-direction: column-reverse;
+        align-items: center;
+        .info {
+            .title {
+                max-width: 1000px;
+            }
+            .text {
+                font-size: 17px;
+                color: white;
+                max-width: 1000px;
+                text-align: center;
+            }
+        }
+    }
+    .high__voltage_laboratory {
+        flex-direction: column;
+        align-items: center;
+        .info {
+            .title {
+                max-width: 1000px;
+            }
+            .text {
+                font-size: 17px;
+                color: white;
+                max-width: 1000px;
+                text-align: center;
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width: 1010px) {
+    .high__voltage_laboratory .mechanical__engineering_laboratory  {
+        .info {
+            .title {
+                max-width: 800px;
+            }
+            .text {
+                max-width: 800px;
+                text-align: center;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 800px) {
+    .high__voltage_laboratory .mechanical__engineering_laboratory  {
+        .info {
+            .title {
+                max-width: 700px;
+            }
+            .text {
+                max-width: 700px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .high__voltage_laboratory .mechanical__engineering_laboratory  {
+       
+        .info {
+            .title {
+                max-width: 600px;
+            }
+            .text {
+                max-width: 600px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 700px) {
+    .high__voltage_laboratory .mechanical__engineering_laboratory  {
+        .info {
+            .title {
+                max-width: 600px;
+            }
+            .text {
+                font-size: 17px;
+                color: white;
+                max-width: 600px;
+                text-align: center;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 500px) {
+    .high__voltage_laboratory .mechanical__engineering_laboratory  {
+        .info {
+            .title {
+                max-width: 375px;
+            }
+            .text {
+                font-size: 17px;
+                color: white;
+                max-width: 375px;
+                text-align: center;
+            }
         }
     }
 }

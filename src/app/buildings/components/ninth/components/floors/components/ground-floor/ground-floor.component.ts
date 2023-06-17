@@ -10,34 +10,29 @@ export class GroundFloorComponent {
   constructor() {
     this.images = [
       {
-        small: '../../../../../../../../assets/images/9-building/1-1.jpg',
-        medium: '../../../../../../../../assets/images/9-building/1-1.jpg',
-        big: '../../../../../../../../assets/images/9-building/1-1.jpg'
+        small: '../../../../../../assets/images/9-building/0-2.webp',
+        medium: '../../../../../../assets/images/9-building/0-2.webp',
+        big: '../../../../../../assets/images/9-building/0-2.webp'
       },
       {
-        small: '../../../../../../assets/images/9-building/0-2.jpg',
-        medium: '../../../../../../assets/images/9-building/0-2.jpg',
-        big: '../../../../../../assets/images/9-building/0-2.jpg'
+        small: '../../../../../../assets/images/9-building/0-3.webp',
+        medium: '../../../../../../assets/images/9-building/0-3.webp',
+        big: '../../../../../../assets/images/9-building/0-3.webp'
       },
       {
-        small: '../../../../../../assets/images/9-building/0-3.jpg',
-        medium: '../../../../../../assets/images/9-building/0-3.jpg',
-        big: '../../../../../../assets/images/9-building/0-3.jpg'
+        small: '../../../../../../assets/images/9-building/0-4.webp',
+        medium: '../../../../../../assets/images/9-building/0-4.webp',
+        big: '../../../../../../assets/images/9-building/0-4.webp'
       },
       {
-        small: '../../../../../../assets/images/9-building/0-4.jpg',
-        medium: '../../../../../../assets/images/9-building/0-4.jpg',
-        big: '../../../../../../assets/images/9-building/0-4.jpg'
+        small: '../../../../../../assets/images/9-building/0-5.webp',
+        medium: '../../../../../../assets/images/9-building/0-5.webp',
+        big: '../../../../../../assets/images/9-building/0-5.webp'
       },
       {
-        small: '../../../../../../assets/images/9-building/0-5.jpg',
-        medium: '../../../../../../assets/images/9-building/0-5.jpg',
-        big: '../../../../../../assets/images/9-building/0-5.jpg'
-      },
-      {
-        small: '../../../../../../assets/images/9-building/0-6.jpg',
-        medium: '../../../../../../assets/images/9-building/0-6.jpg',
-        big: '../../../../../../assets/images/9-building/0-6.jpg'
+        small: '../../../../../../assets/images/9-building/0-6.webp',
+        medium: '../../../../../../assets/images/9-building/0-6.webp',
+        big: '../../../../../../assets/images/9-building/0-6.webp'
       }
     ];
   }

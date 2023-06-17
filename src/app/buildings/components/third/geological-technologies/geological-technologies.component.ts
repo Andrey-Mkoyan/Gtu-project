@@ -10,24 +10,24 @@ export class GeologicalTechnologiesComponent {
   constructor() {
     this.images = [
       {
-        small: '../../../../../assets/images/3-building/geological-technologies/1.jpg',
-        medium: '../../../../../assets/images/3-building/geological-technologies/1.jpg',
-        big: '../../../../../assets/images/3-building/geological-technologies/1.jpg'
+        small: '../../../../../assets/images/3-building/geological-technologies/1.webp',
+        medium: '../../../../../assets/images/3-building/geological-technologies/1.webp',
+        big: '../../../../../assets/images/3-building/geological-technologies/1.webp'
       },
       {
-        small: '../../../../../assets/images/3-building/geological-technologies/2.jpg',
-        medium: '../../../../../assets/images/3-building/geological-technologies/2.jpg',
-        big: '../../../../../assets/images/3-building/geological-technologies/2.jpg'
+        small: '../../../../../assets/images/3-building/geological-technologies/2.webp',
+        medium: '../../../../../assets/images/3-building/geological-technologies/2.webp',
+        big: '../../../../../assets/images/3-building/geological-technologies/2.webp'
       },
       {
-        small: '../../../../../assets/images/3-building/geological-technologies/3.jpg',
-        medium: '../../../../../assets/images/3-building/geological-technologies/3.jpg',
-        big: '../../../../../assets/images/3-building/geological-technologies/3.jpg'
+        small: '../../../../../assets/images/3-building/geological-technologies/3.webp',
+        medium: '../../../../../assets/images/3-building/geological-technologies/3.webp',
+        big: '../../../../../assets/images/3-building/geological-technologies/3.webp'
       },
       {
-        small: '../../../../../assets/images/3-building/geological-technologies/4.jpg',
-        medium: '../../../../../assets/images/3-building/geological-technologies/4.jpg',
-        big: '../../../../../assets/images/3-building/geological-technologies/4.jpg'
+        small: '../../../../../assets/images/3-building/geological-technologies/4.webp',
+        medium: '../../../../../assets/images/3-building/geological-technologies/4.webp',
+        big: '../../../../../assets/images/3-building/geological-technologies/4.webp'
       },
     ]
   }

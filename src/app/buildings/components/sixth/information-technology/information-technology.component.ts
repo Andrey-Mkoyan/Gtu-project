@@ -10,19 +10,19 @@ export class InformationTechnologyComponent {
   constructor() {
     this.images = [
       {
-        small: '../../../../../assets/images/6-building/information/1.jpg',
-        medium: '../../../../../assets/images/6-building/information/1.jpg',
-        big: '../../../../../assets/images/6-building/information/1.jpg'
+        small: '../../../../../assets/images/6-building/information/1.webp',
+        medium: '../../../../../assets/images/6-building/information/1.webp',
+        big: '../../../../../assets/images/6-building/information/1.webp'
       },
       {
-        small: '../../../../../assets/images/6-building/information/2.jpg',
-        medium: '../../../../../assets/images/6-building/information/2.jpg',
-        big: '../../../../../assets/images/6-building/information/2.jpg'
+        small: '../../../../../assets/images/6-building/information/2.webp',
+        medium: '../../../../../assets/images/6-building/information/2.webp',
+        big: '../../../../../assets/images/6-building/information/2.webp'
       },
       {
-        small: '../../../../../assets/images/6-building/information/3.jpg',
-        medium: '../../../../../assets/images/6-building/information/3.jpg',
-        big: '../../../../../assets/images/6-building/information/3.jpg'
+        small: '../../../../../assets/images/6-building/information/3.webp',
+        medium: '../../../../../assets/images/6-building/information/3.webp',
+        big: '../../../../../assets/images/6-building/information/3.webp'
       },
     ]
   }

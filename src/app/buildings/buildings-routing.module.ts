@@ -64,6 +64,12 @@ const routes: Routes = [
             import('./components/tenth/tenth.module').then((m) => m.TenthModule)
     },
     {
+        path: 'eleventh-building',
+        loadChildren: () =>
+            import('./components/eleventh/eleventh.module').then((m) => m.EleventhModule)
+    },
+
+    {
         path: 'retrainings-building',
         loadChildren: () =>
             import('./components/retraining/retraining.module').then((m) => m.RetrainingModule)

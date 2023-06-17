@@ -1,11 +1,12 @@
 .library__wrapper {
-    background: url('../../../../../../assets/backgrounds/main.jpg')center center/cover no-repeat;
+    background: url('../../../../../../assets/backgrounds/main.webp')center center/cover no-repeat;
     min-height: 100vh;
     background-attachment: fixed;
     box-sizing: border-box;
     display: flex;
-    padding-top: 50px;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
 }
 
 .library__wrapper::ng-deep {
@@ -14,5 +15,10 @@
         flex-direction: column;
         align-items: center;
         max-width: 90%;
+        margin-top: 50px;
     }
+   
 }
+
+
+

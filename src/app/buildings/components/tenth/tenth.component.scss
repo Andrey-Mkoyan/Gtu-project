@@ -1,5 +1,5 @@
 .tenth__wrapper {
-    background: url('../../../../assets/backgrounds/10.jpg')center center/cover no-repeat;
+    background: url('../../../../assets/backgrounds/10.webp')center center/cover no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
     display: flex;
@@ -39,4 +39,20 @@
         align-items: center;
         gap: 50px;
     }
+}
+
+@media only screen and (max-width:900px) {
+    .tenth__wrapper  {
+        .info__title {
+            font-size: 25px;
+        }
+        .info__content {
+            width: 100%;
+        }
+        .info__text {
+            width: 100%;
+            font-size: 14px;
+        }
+    }
+    
 }

@@ -8,7 +8,7 @@
     box-sizing: border-box;
     padding: 50px 0;
     overflow-x: hidden;
-    background: url('../../../../../../../../assets/backgrounds/9.jpeg')center center/cover no-repeat;
+    background: url('../../../../../../../../assets/backgrounds/9.webp')center center/cover no-repeat;
     background-attachment: fixed;
 
     .images {
@@ -35,5 +35,24 @@
         padding-top: 50px;
         display: flex;
         align-items: center;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .second__floor-wrapper {
+        .information__laboratory {
+            flex-direction: column;
+        }
+        .images {
+            justify-content: center;
+            margin-right: 0px !important;
+            margin-left: 0px !important;
+        }
+        .column__reverse {
+            flex-direction: column-reverse;
+        }
+        .title {
+            max-width: 400px;
+        }
     }
 }

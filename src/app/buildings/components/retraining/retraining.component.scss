@@ -1,5 +1,5 @@
 .retraining__wrapper {
-    background: url('../../../../assets/backgrounds/gadamzadeba.jpg')center center/cover no-repeat;
+    background: url('../../../../assets/backgrounds/gadamzadeba.webp')center center/cover no-repeat;
     min-height: 100vh;
     background-attachment: fixed;
     padding-top: 50px;
@@ -12,5 +12,10 @@
         left: 3%;
         z-index: 2;
         cursor: pointer;
+    }
+}
+.retraining__wrapper::ng-deep {
+    .content {
+        gap: 100px;
     }
 }

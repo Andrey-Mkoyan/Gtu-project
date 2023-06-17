@@ -11,31 +11,31 @@ export class EconomyComponent {
   constructor() {
     this.images = [
       {
-        small: '../../../../../assets/images/6-building/economy/1.jpg',
-        medium: '../../../../../assets/images/6-building/economy/1.jpg',
-        big: '../../../../../assets/images/6-building/economy/1.jpg'
+        small: '../../../../../assets/images/6-building/economy/1.webp',
+        medium: '../../../../../assets/images/6-building/economy/1.webp',
+        big: '../../../../../assets/images/6-building/economy/1.webp'
       },
       {
-        small: '../../../../../assets/images/6-building/economy/2.jpg',
-        medium: '../../../../../assets/images/6-building/economy/2.jpg',
-        big: '../../../../../assets/images/6-building/economy/2.jpg'
+        small: '../../../../../assets/images/6-building/economy/2.webp',
+        medium: '../../../../../assets/images/6-building/economy/2.webp',
+        big: '../../../../../assets/images/6-building/economy/2.webp'
       },
     ]
     this.images2 = [
       {
-        small: '../../../../../assets/images/6-building/economy/library/1.jpg',
-        medium: '../../../../../assets/images/6-building/economy/library/1.jpg',
-        big: '../../../../../assets/images/6-building/economy/library/1.jpg'
+        small: '../../../../../assets/images/6-building/economy/library/1.webp',
+        medium: '../../../../../assets/images/6-building/economy/library/1.webp',
+        big: '../../../../../assets/images/6-building/economy/library/1.webp'
       },
       {
-        small: '../../../../../assets/images/6-building/economy/library/2.jpg',
-        medium: '../../../../../assets/images/6-building/economy/library/2.jpg',
-        big: '../../../../../assets/images/6-building/economy/library/2.jpg'
+        small: '../../../../../assets/images/6-building/economy/library/2.webp',
+        medium: '../../../../../assets/images/6-building/economy/library/2.webp',
+        big: '../../../../../assets/images/6-building/economy/library/2.webp'
       },
       {
-        small: '../../../../../assets/images/6-building/economy/library/3.jpg',
-        medium: '../../../../../assets/images/6-building/economy/library/3.jpg',
-        big: '../../../../../assets/images/6-building/economy/library/3.jpg'
+        small: '../../../../../assets/images/6-building/economy/library/3.webp',
+        medium: '../../../../../assets/images/6-building/economy/library/3.webp',
+        big: '../../../../../assets/images/6-building/economy/library/3.webp'
       },
     ]
 

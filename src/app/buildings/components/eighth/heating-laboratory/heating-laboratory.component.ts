@@ -10,34 +10,34 @@ export class HeatingLaboratoryComponent {
   constructor() {
     this.images = [
       {
-        small: '../../../../../assets/images/8-building/heating/1.jpg',
-        medium: '../../../../../assets/images/8-building/heating/1.jpg',
-        big: '../../../../../assets/images/8-building/heating/1.jpg'
+        small: '../../../../../assets/images/8-building/heating/1.webp',
+        medium: '../../../../../assets/images/8-building/heating/1.webp',
+        big: '../../../../../assets/images/8-building/heating/1.webp'
       },
       {
-        small: '../../../../../assets/images/8-building/heating/2.jpg',
-        medium: '../../../../../assets/images/8-building/heating/2.jpg',
-        big: '../../../../../assets/images/8-building/heating/2.jpg'
+        small: '../../../../../assets/images/8-building/heating/2.webp',
+        medium: '../../../../../assets/images/8-building/heating/2.webp',
+        big: '../../../../../assets/images/8-building/heating/2.webp'
       },
       {
-        small: '../../../../../assets/images/8-building/heating/3.jpg',
-        medium: '../../../../../assets/images/8-building/heating/3.jpg',
-        big: '../../../../../assets/images/8-building/heating/3.jpg'
+        small: '../../../../../assets/images/8-building/heating/3.webp',
+        medium: '../../../../../assets/images/8-building/heating/3.webp',
+        big: '../../../../../assets/images/8-building/heating/3.webp'
       },
       {
-        small: '../../../../../assets/images/8-building/heating/4.jpg',
-        medium: '../../../../../assets/images/8-building/heating/4.jpg',
-        big: '../../../../../assets/images/8-building/heating/4.jpg'
+        small: '../../../../../assets/images/8-building/heating/4.webp',
+        medium: '../../../../../assets/images/8-building/heating/4.webp',
+        big: '../../../../../assets/images/8-building/heating/4.webp'
       },
       {
-        small: '../../../../../assets/images/8-building/heating/5.jpg',
-        medium: '../../../../../assets/images/8-building/heating/5.jpg',
-        big: '../../../../../assets/images/8-building/heating/5.jpg'
+        small: '../../../../../assets/images/8-building/heating/5.webp',
+        medium: '../../../../../assets/images/8-building/heating/5.webp',
+        big: '../../../../../assets/images/8-building/heating/5.webp'
       },
       {
-        small: '../../../../../assets/images/8-building/heating/6.jpg',
-        medium: '../../../../../assets/images/8-building/heating/6.jpg',
-        big: '../../../../../assets/images/8-building/heating/6.jpg'
+        small: '../../../../../assets/images/8-building/heating/6.webp',
+        medium: '../../../../../assets/images/8-building/heating/6.webp',
+        big: '../../../../../assets/images/8-building/heating/6.webp'
       },
     ]
   }

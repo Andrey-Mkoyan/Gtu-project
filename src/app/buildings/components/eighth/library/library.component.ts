@@ -10,14 +10,14 @@ export class LibraryComponent {
   constructor() {
     this.images = [
       {
-        small: '../../../../../assets/images/8-building/library/1.jpg',
-        medium: '../../../../../assets/images/8-building/library/1.jpg',
-        big: '../../../../../assets/images/8-building/library/1.jpg'
+        small: '../../../../../assets/images/8-building/library/1.webp',
+        medium: '../../../../../assets/images/8-building/library/1.webp',
+        big: '../../../../../assets/images/8-building/library/1.webp'
       },
       {
-        small: '../../../../../assets/images/8-building/library/2.jpg',
-        medium: '../../../../../assets/images/8-building/library/2.jpg',
-        big: '../../../../../assets/images/8-building/library/2.jpg'
+        small: '../../../../../assets/images/8-building/library/2.webp',
+        medium: '../../../../../assets/images/8-building/library/2.webp',
+        big: '../../../../../assets/images/8-building/library/2.webp'
       },
     ]
   }

@@ -10,7 +10,7 @@
     padding:50px 0;
     overflow-x: hidden;
     transition: 0.5s;
-    background: url('../../../../../../../../assets/backgrounds/9.jpeg')center center/cover no-repeat;
+    background: url('../../../../../../../../assets/backgrounds/9.webp')center center/cover no-repeat;
     background-attachment: fixed;
     .laboratory__of-robot {
         display: flex;
@@ -63,6 +63,65 @@
         }
         .info {
             max-width: 830px;
+        }
+    }
+}
+@media only screen and (max-width: 1150px) {
+    .first__floor-wrapper{
+        .laboratory__of-robot {
+            flex-direction: column;
+            align-items: center;
+        }
+        .software__engineering-laboratory {
+            flex-direction: column-reverse;
+            align-items: center;
+            gap: 50px;
+        }
+    }
+}
+@media only screen and (max-width: 800px) {
+    .first__floor-wrapper{
+        .laboratory__of-robot {
+            
+        }
+        .software__engineering-laboratory {
+            .laboratory__img {
+                min-width: 375px;
+                max-width: 540px;
+                height: 300px;
+            }
+        }
+        .info {
+            padding: 0 40px;
+            .info__title {
+                text-align: center;
+            }
+            .info__text {
+                font-size: 14px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 550px) {
+    .first__floor-wrapper{
+        .laboratory__of-robot {
+            
+        }
+        .software__engineering-laboratory {
+            .laboratory__img {
+                min-width: 365px;
+                max-width: 375px;
+                height: 280px;
+            }
+        }
+        .info {
+            padding: 0 40px;
+            .info__title {
+                text-align: center;
+            }
+            .info__text {
+                font-size: 14px;
+            }
         }
     }
 }

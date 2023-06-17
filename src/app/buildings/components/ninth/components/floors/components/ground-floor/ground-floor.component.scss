@@ -1,19 +1,23 @@
 .floor__0 {
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    background: url('../../../../../../../../assets/backgrounds/9.jpeg')center center/cover no-repeat;
+    background: url('../../../../../../../../assets/backgrounds/9.webp')center center/cover no-repeat;
     background-attachment: fixed;
+    .inner__container {
+        display: flex;
+        align-items: center;
+        gap: 100px;
+    }
     .left {
         max-width: 1200px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 15px;
-        min-width: 725px;
     }
 
     .right {
@@ -34,8 +38,31 @@
         }
     }
 }
-.content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media only screen and (max-width:1100px) {
+
+    .floor__0 {
+        .left {
+            justify-content: center;
+        }
+        .inner__container {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+@media only screen and (max-width:500px) {
+
+    .floor__0 {
+        .left {
+            justify-content: center;
+        }
+        .inner__container {
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 50px;
+        }
+        .right {
+            padding-left: 25px;
+        }
+    }
 }

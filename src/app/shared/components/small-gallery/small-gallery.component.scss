@@ -1,0 +1,28 @@
+.ngx-gallery {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  ::ng-deep  {
+    .ngx-gallery-layout {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      background: rgba(255, 255, 255, 0.5);
+      padding: 30px;
+      border-radius: 10px;
+    }
+    
+    .ngx-gallery-thumbnail {
+      border: 1px double white !important;
+    }
+    .ngx-gallery-image {
+      border: 2px double white !important;
+    }
+    .ngx-gallery-thumbnail.ngx-gallery-active {
+      border: 1px double black !important;
+  }
+  
+  
+  }

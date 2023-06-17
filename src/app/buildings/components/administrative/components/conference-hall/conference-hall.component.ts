@@ -10,19 +10,19 @@ export class ConferenceHallComponent {
   constructor() {
     this.images = [
       {
-        small: '../../../../../../assets/images/administrative/conference-hall/1.jpg',
-        medium: '../../../../../../assets/images/administrative/conference-hall/1.jpg',
-        big: '../../../../../../assets/images/administrative/conference-hall/1.jpg'
+        small: '../../../../../../assets/images/administrative/conference-hall/1.webp',
+        medium: '../../../../../../assets/images/administrative/conference-hall/1.webp',
+        big: '../../../../../../assets/images/administrative/conference-hall/1.webp'
       },
       {
-        small: '../../../../../../assets/images/administrative/conference-hall/2.jpg',
-        medium: '../../../../../../assets/images/administrative/conference-hall/2.jpg',
-        big: '../../../../../../assets/images/administrative/conference-hall/2.jpg'
+        small: '../../../../../../assets/images/administrative/conference-hall/2.webp',
+        medium: '../../../../../../assets/images/administrative/conference-hall/2.webp',
+        big: '../../../../../../assets/images/administrative/conference-hall/2.webp'
       },
       {
-        small: '../../../../../../assets/images/administrative/conference-hall/3.jpg',
-        medium: '../../../../../../assets/images/administrative/conference-hall/3.jpg',
-        big: '../../../../../../assets/images/administrative/conference-hall/3.jpg'
+        small: '../../../../../../assets/images/administrative/conference-hall/3.webp',
+        medium: '../../../../../../assets/images/administrative/conference-hall/3.webp',
+        big: '../../../../../../assets/images/administrative/conference-hall/3.webp'
       },
     ]
   }

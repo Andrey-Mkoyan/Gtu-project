@@ -8,26 +8,24 @@
    <div class="content">
     <div class="information__laboratory">
         <div class="images">
-            <app-gallery [imagesFromOutside]="images"></app-gallery>
+            <app-small-gallery [imagesFromOutside]="images"></app-small-gallery>
         </div>
        
-        <div class="title" style="width: 715px;">
+        <div class="title" >
             ინფორმაციული სისტემების  ლაბორატორია
         </div>
     </div>
-    <div class="information__laboratory" >
+    <div class="information__laboratory column__reverse">
         <div class="title">
             კომპიუტერული მოდელირების ლაბორატორია და ბიზნეს პროცესების და ანალიზის ინფორმაციული ტექნოლოგიების ლაბორატორია
         </div>
-        <div class="images" style="margin-right: 0px;">
-            <img src="../../../../../../../../assets/images/9-building/2-4.jpg" alt="" width="350">
-            <img src="../../../../../../../../assets/images/9-building/2-5.jpg" alt="" width="350">
-            
+        <div class="images" style="margin-right: 0px; margin-left: 5%;">
+            <app-small-gallery [imagesFromOutside]="images3"></app-small-gallery>
         </div>
     </div>
     <div class="information__laboratory">
         <div class="images">
-            <app-gallery [imagesFromOutside]="images2"></app-gallery>
+            <app-small-gallery [imagesFromOutside]="images2"></app-small-gallery>
             
         </div>
         <div class="title">

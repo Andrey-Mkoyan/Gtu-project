@@ -4,12 +4,14 @@ import { CardComponent } from './components/card/card.component';
 import { RouterModule } from '@angular/router';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { NgxGalleryModule } from '@kolkov/ngx-gallery';
+import { SmallGalleryComponent } from './components/small-gallery/small-gallery.component';
 
 
 @NgModule({
   declarations: [
     CardComponent,
-    GalleryComponent
+    GalleryComponent,
+    SmallGalleryComponent
   ],
   imports: [
     CommonModule,
@@ -18,7 +20,8 @@ import { NgxGalleryModule } from '@kolkov/ngx-gallery';
   ],
   exports: [
     CardComponent,
-    GalleryComponent
+    GalleryComponent,
+    SmallGalleryComponent
   ]
 })
 export class SharedModule { }

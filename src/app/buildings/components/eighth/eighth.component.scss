@@ -1,5 +1,5 @@
 .eighth__building-wrapper {
-    background: url('../../../../assets/backgrounds/8.jpg') center center/cover no-repeat;
+    background: url('../../../../assets/backgrounds/8.webp') center center/cover no-repeat;
     background-attachment: fixed;
     width: 100%;
     min-height: 100vh;
@@ -7,6 +7,7 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 50px;
+    padding-top: 70px;
     .logo {
         position: absolute;
         top: 3%;

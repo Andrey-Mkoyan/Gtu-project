@@ -10,40 +10,42 @@ export class FourthComponent {
   constructor() {
     this.images= [
       {
-        small: '../../../../assets/images/4-building/1.jpg',
-        medium: '../../../../assets/images/4-building/1.jpg',
-        big: '../../../../assets/images/4-building/1.jpg'
+        small: '../../../../assets/images/4-building/5.webp',
+        medium: '../../../../assets/images/4-building/5.webp',
+        big: '../../../../assets/images/4-building/5.webp'
       },
       {
-        small: '../../../../assets/images/4-building/3.jpg',
-        medium: '../../../../assets/images/4-building/3.jpg',
-        big: '../../../../assets/images/4-building/3.jpg'
+        small: '../../../../assets/images/4-building/6.webp',
+        medium: '../../../../assets/images/4-building/6.webp',
+        big: '../../../../assets/images/4-building/6.webp'
       },
       {
-        small: '../../../../assets/images/4-building/4.jpg',
-        medium: '../../../../assets/images/4-building/4.jpg',
-        big: '../../../../assets/images/4-building/4.jpg'
+        small: '../../../../assets/images/4-building/7.webp',
+        medium: '../../../../assets/images/4-building/7.webp',
+        big: '../../../../assets/images/4-building/7.webp'
       },
       {
-        small: '../../../../assets/images/4-building/5.jpg',
-        medium: '../../../../assets/images/4-building/5.jpg',
-        big: '../../../../assets/images/4-building/5.jpg'
+        small: '../../../../assets/images/4-building/8.webp',
+        medium: '../../../../assets/images/4-building/8.webp',
+        big: '../../../../assets/images/4-building/8.webp'
       },
       {
-        small: '../../../../assets/images/4-building/6.jpg',
-        medium: '../../../../assets/images/4-building/6.jpg',
-        big: '../../../../assets/images/4-building/6.jpg'
+        small: '../../../../assets/images/4-building/1.webp',
+        medium: '../../../../assets/images/4-building/1.webp',
+        big: '../../../../assets/images/4-building/1.webp'
       },
       {
-        small: '../../../../assets/images/4-building/7.jpg',
-        medium: '../../../../assets/images/4-building/7.jpg',
-        big: '../../../../assets/images/4-building/7.jpg'
+        small: '../../../../assets/images/4-building/3.webp',
+        medium: '../../../../assets/images/4-building/3.webp',
+        big: '../../../../assets/images/4-building/3.webp'
       },
       {
-        small: '../../../../assets/images/4-building/8.jpg',
-        medium: '../../../../assets/images/4-building/8.jpg',
-        big: '../../../../assets/images/4-building/8.jpg'
-      }
+        small: '../../../../assets/images/4-building/4.webp',
+        medium: '../../../../assets/images/4-building/4.webp',
+        big: '../../../../assets/images/4-building/4.webp'
+      },
+      
+     
     ]
   }
 }

@@ -2,8 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 1000px;
-    padding-bottom: 20px;
+    min-height: 105%;
     position: relative;
     transition: 0.5s;
 
@@ -31,7 +30,7 @@
         .cards__container {
             display: flex;
             justify-content: center;
-            gap: 30px;
+            gap: 40px;
             width: 90%;
             flex-wrap: wrap;
         }
@@ -46,3 +45,48 @@
 // .background-1 {
 //     background: url('../../assets/backgrounds/main.jpg')center center/cover no-repeat;
 // }
+@media only screen and (max-width: 1650px) {
+    .buildings__wrapper  {
+        .main__content {
+            margin-top: 110px;
+        }
+    }
+    
+}
+@media only screen and (max-width: 1420px) {
+    .buildings__wrapper  {
+        .main__content {
+            .main__title {
+                padding: 20px 35px;
+                font-size: 23px;
+                text-align: center;
+                h1 {
+                    justify-content: center;
+                }
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width: 750px) {
+    .buildings__wrapper {
+        .logo {
+            top: 1%;
+        }
+        .main__content {
+            .main__title {
+                font-size: 18px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 450px) {
+    .buildings__wrapper {
+       
+        .main__content {
+            .main__title {
+                font-size: 14px;
+            }
+        }
+    }
+}

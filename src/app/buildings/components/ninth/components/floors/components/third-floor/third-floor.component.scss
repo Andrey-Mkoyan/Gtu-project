@@ -8,8 +8,9 @@
     box-sizing: border-box;
     padding: 50px 0;
     overflow-x: hidden;
-    background: url('../../../../../../../../assets/backgrounds/9.jpeg')center center/cover no-repeat;
+    background: url('../../../../../../../../assets/backgrounds/9.webp')center center/cover no-repeat;
     background-attachment: fixed;
+
     .images {
         display: flex;
         flex-direction: row;
@@ -20,8 +21,10 @@
         min-width: 750px;
         margin-right: 5%;
     }
+
     .info {
         width: 100%;
+
         .title {
             font-size: 24px;
             font-weight: 600;
@@ -30,22 +33,26 @@
             color: white;
             text-align: center
         }
+
         .text {
             font-size: 18px;
             color: white;
             max-width: 760px;
         }
     }
-    
+
     .biomedical__engineering_laboratory {
         display: flex;
         align-items: center;
         margin-bottom: 100px;
     }
-    .data__managment_laboratory,.microprocessor_laboratory  {
+
+    .data__managment_laboratory,
+    .microprocessor_laboratory {
         display: flex;
         align-items: center;
         margin-bottom: 100px;
+
         .images {
             display: flex;
             flex-direction: row;
@@ -60,6 +67,7 @@
             padding-right: 30px;
         }
     }
+
     .electronics_laboratory {
         display: flex;
         align-items: center;
@@ -67,3 +75,127 @@
     }
 }
 
+@media only screen and (max-width:1350px) {
+    .third__floor_wrapper {
+
+        .biomedical__engineering_laboratory,
+        .electronics_laboratory {
+            flex-direction: column;
+            align-items: center;
+
+            .images {
+                display: flex;
+                justify-content: center;
+                margin-right: 0;
+            }
+        }
+
+        .data__managment_laboratory,
+        .microprocessor_laboratory {
+            flex-direction: column-reverse;
+            align-items: center;
+
+            .images {
+                display: flex;
+                justify-content: center;
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .third__floor_wrapper {
+
+        .biomedical__engineering_laboratory,
+        .electronics_laboratory {
+            .info {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .title {
+                    max-width: 600px;
+                }
+                .text {
+                    max-width: 600px;
+                }
+            }
+        }
+
+        .data__managment_laboratory,
+        .microprocessor_laboratory {
+            .info {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .title {
+                    max-width: 600px;
+                }
+                .text {
+                    max-width: 600px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:650px) {
+    .third__floor_wrapper {
+
+        .biomedical__engineering_laboratory,
+        .electronics_laboratory {
+            .info {
+                .title {
+                    max-width: 450px;
+                }
+                .text {
+                    max-width: 450px;
+                }
+            }
+        }
+
+        .data__managment_laboratory,
+        .microprocessor_laboratory {
+            .info {
+                .title {
+                    max-width: 450px;
+                }
+                .text {
+                    max-width: 450px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:550px) {
+    .third__floor_wrapper {
+
+        .biomedical__engineering_laboratory,
+        .electronics_laboratory {
+            .info {
+                .title {
+                    font-size: 22px;
+                    max-width: 360px;
+                }
+                .text {
+                    font-size: 14px;
+                    max-width: 360px;
+                }
+            }
+        }
+
+        .data__managment_laboratory,
+        .microprocessor_laboratory {
+            .info {
+                .title {
+                    font-size: 22px;
+                    max-width: 360px;
+                }
+                .text {
+                    font-size: 14px;
+                    max-width: 360px;
+                }
+            }
+        }
+    }
+}

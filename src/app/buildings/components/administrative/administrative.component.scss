@@ -1,7 +1,7 @@
 .administrative__wrapper {
     width: 100%;
     min-height: 100vh;
-    background: url('../../../../assets/backgrounds/main.jpg')center center/cover no-repeat;
+    background: url('../../../../assets/backgrounds/main.webp')center center/cover no-repeat;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
@@ -10,14 +10,11 @@
     overflow-y: hidden;
     transition: 0.5s;
     .logo {
-        position: fixed;
+        position: absolute;
         top: 3%;
         left: 3%;
         z-index: 2;
         cursor: pointer;
-    }
-    .gallery__wrapper {
-
     }
     .card__container {
         display: flex;
